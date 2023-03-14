@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to right, #8C52FF, #0A1A44);
+    color: white;
+    font-family: 'codecpro';
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.search-box{
+    transform: translate(-50%,-50%);
+    background-color: lightgray;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 40px; 
+  }
+
+  .search-txt{
+    margin-left: 15px;
+  }
+  
+  .search-box:hover > .search-txt{
+    
+
+    width: 240px;
+    padding: 0 5px;
+    transition: 0.5s;
+  
+  }
+  
+  .search-box:hover > .search-btn{
+  
+    background: none;
+    transition: 0.5s;
+  }
+  
+  
+  .search-btn{
+  
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0A1A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  
+  }
+  
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 240px;
+ }
+
+#banner img {
+    width: 100%;
+}
+
+#foto{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: black;
+}
+
+#foto img{
+    border: 12px solid #8C52FF;
+    border-radius: 100%;
+    width: 250px;
+}
+
+#foto h5{
+    font-size: 25px;
+}
+
+#foto h6{
+    font-size: 12px;
+    color: gray;
+}
+
+#texto{
+    color: black;
+    margin-top: 200px;
+    text-align: justify;
+    max-width: 70%;
+}
+
+#perfil{
+    background-color: white;
+    margin-top: -30px;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+    position: absolute;
+}
+
+.pai {
+    position: relative;
+}
+
+#ul > li{
+    color: black;
+}
+
+#ul {
+    flex-direction: column;
+    list-style: none; /* remove os marcadores padrão da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* torna a lista um contêiner flexível */
+    justify-content: space-around; /* distribui uniformemente os itens */
+    background-color: #eee; /* define uma cor de fundo para a lista */
+    font-family: Arial, sans-serif; /* define uma fonte para o texto da lista */
+    max-width: 10%;
+  }
+  
+  #ul li {
+    padding: 10px; /* adiciona um preenchimento ao redor de cada item */
+    border-radius: 5px; /* adiciona bordas arredondadas aos itens */
+    background-color: white; /* define uma cor de fundo para cada item */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* adiciona uma sombra ao redor dos itens */
+    cursor: pointer; /* adiciona um ponteiro de mouse ao passar por cima dos itens */
+    transition: background-color 0.2s ease; /* adiciona uma transição suave de cor de fundo ao passar por cima dos itens */
+  }
+  
+  #ul li:hover {
+    background-color: #ddd; /* muda a cor de fundo ao passar o mouse sobre o item */
+  }
+  
