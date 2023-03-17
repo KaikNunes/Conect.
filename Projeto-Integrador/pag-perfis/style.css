@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ececec;
+}
+
+#titulo {
+    color: #8C52FF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'codecproextrabold';
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+}
+
+
+#logo {
+    width: 100px;
+}
+
+.search-box {
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.search-txt {
+    margin-left: 15px;
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 5px;
+    transition: 0.5s;
+
+}
+
+.search-box:hover>.search-btn {
+    background: none;
+    transition: 0.5s;
+}
+
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0A1A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 240px;
+}
+
+/* Parte do Felipe e Laura abaixo */
+
+#felipe-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+#fundo {
+    background-color: #142140;
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+}
+
+#titulofelipe-txt {
+    color: white;
+    font-size: 30 px;
+    font-family: "codecpro";
+    text-align: center;
+    margin-top: 5%;
+}
+
+.estrelas {
+    color: gold;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+#notas-fundo {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 120px;
+    height: 20px;
+    flex-direction: row;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+#notas {
+    color: white;
+}
+
+#felipe-txt {
+    color: white;
+    font-size: 50px;
+    font-family: "codecpro";
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+#btn-cadastro-freelancer {
+    background-color: #8C52FF;
+    border: none;
+    color: #ffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+#btn-cadastro-freelancer:hover{
+    background-color: #999;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+#estrela {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Parte do Felipe e Laura acima */
+
+#felipe-juliana{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* Parte do Juliana abaixo  */
+
+#fundo-juliana {
+    background-color: #142140;
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+}
+
+#titulofelipe-txt {
+    color: white;
+    font-size: 200%;
+    font-family: "codecpro";
+}
+
+.estrelas {
+    color: gold;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+#notas-fundo {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 120px;
+    height: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#notas {
+    color: white;
+}
+
+#felipe-txt {
+    color: white;
+    font-size: 110%;
+}
+
+#btn-cadastro-freelancer {
+    background-color: #8C52FF;
+    border: none;
+    color: #ffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#estrela {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Parte do Juliana acima  */
+
+#laura-miguel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+/* Parte do Miguel abaixo */
+
+
+#fundo-miguel {
+    background-color: #142140;
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+}
+
+#titulofelipe-txt {
+    color: white;
+    font-size: 200%;
+}
+
+.estrelas {
+    color: gold;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+#notas-fundo {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 120px;
+    height: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#notas {
+    color: white;
+    margin-left: 5%;
+
+}
+
+#felipe-txt {
+    color: white;
+    font-size: 110%;
+}
+
+#btn-cadastro-freelancer {
+    background-color: #8C52FF;
+    border: none;
+    color: #ffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#estrela {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Parte do Miguel acima */
