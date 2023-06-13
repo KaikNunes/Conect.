@@ -26,6 +26,7 @@ header {
   height: 75px;
   width: 100%;
   position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #logo {
@@ -201,10 +202,6 @@ h6 {
   height: 303px;
 }
 
-#suporte:hover {
-  opacity: 0.98;
-}
-
 #segundo h6 {
   font-family: "codecproextrabold";
   font-size: 20px;
@@ -233,10 +230,6 @@ h6 {
   height: 303px;
 }
 
-#gerenciamento:hover {
-  opacity: 0.98;
-}
-
 #consul-trei {
   display: flex;
   flex-direction: row;
@@ -262,10 +255,6 @@ h6 {
   height: 303px;
 }
 
-#consultoria:hover {
-  opacity: 0.98;
-}
-
 .treinamento {
   width: 30px;
   padding: 10px 22px 10px 10px;
@@ -281,10 +270,6 @@ h6 {
   border-radius: 30px;
   width: 455px;
   height: 303px;
-}
-
-#treinamento:hover {
-  opacity: 0.98;
 }
 
 #terceiro {
