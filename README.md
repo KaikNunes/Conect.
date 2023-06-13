@@ -2,14 +2,19 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Senac_logo.svg/2560px-Senac_logo.svg.png" width="50px">
 
-<div style="text-align: justify;">
-  A plataforma Conect surge como resposta a demanda crescente por soluções
-  tecnológicas eficientes e personalizadas. Diferentemente de outras plataformas de
-  freelancers genéricas, a Conect concentra-se exclusivamente em projetos da área de
-  tecnologia. Seu objetivo principal é conectar indivíduos com problemas tecnológicos aos
-  melhores técnicos experientes, proporcionando uma experiência ágil, confiável e de
-  qualidade.
-</div>
+<style>
+  p {
+    text-align: justify;
+  }
+</style>
+
+A plataforma Conect surge como resposta a demanda crescente por soluções
+tecnológicas eficientes e personalizadas. Diferentemente de outras plataformas de
+freelancers genéricas, a Conect concentra-se exclusivamente em projetos da área de
+tecnologia. Seu objetivo principal é conectar indivíduos com problemas tecnológicos aos
+melhores técnicos experientes, proporcionando uma experiência ágil, confiável e de
+qualidade.
+
 
   A Conect adota uma abordagem inovadora para garantir a seleção dos melhores técnicos para
   cada projeto. Utilizando filtros avançados, a plataforma classifica e direciona os profissionais
