@@ -9,10 +9,10 @@
   tecnologia. Seu objetivo principal é conectar indivíduos com problemas tecnológicos aos
   melhores técnicos experientes, proporcionando uma experiência ágil, confiável e de
   qualidade.
+</div>
 
   A Conect adota uma abordagem inovadora para garantir a seleção dos melhores técnicos para
   cada projeto. Utilizando filtros avançados, a plataforma classifica e direciona os profissionais
   de acordo com suas habilidades, experiências prévias e avaliações de clientes anteriores.
   Dessa forma, os usuários têm a garantia de que estarão conectados a especialistas altamente
   qualificados e confiáveis, aumentando a eficiência e a satisfação geral.
-</div>
