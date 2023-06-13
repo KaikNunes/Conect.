@@ -80,10 +80,9 @@ header{
   align-items: center;
 }
 .b1:hover {
-    background-color: rgb(6, 119, 248); /* Green */
+    background-color: #999;
     color: #fefeff;
-    box-shadow: 7px 5px 56px -4px #57e4ff;
-    
+  
 }
 .b1{
     color: white;
