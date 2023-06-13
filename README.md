@@ -4,12 +4,14 @@
 
 >Conect.
 
+<center>
 A plataforma Conect surge como resposta a demanda crescente por soluções
 tecnológicas eficientes e personalizadas. Diferentemente de outras plataformas de
 freelancers genéricas, a Conect concentra-se exclusivamente em projetos da área de
 tecnologia. Seu objetivo principal é conectar indivíduos com problemas tecnológicos aos
 melhores técnicos experientes, proporcionando uma experiência ágil, confiável e de
 qualidade.
+</center>
 
 A Conect adota uma abordagem inovadora para garantir a seleção dos melhores técnicos para
 cada projeto. Utilizando filtros avançados, a plataforma classifica e direciona os profissionais
