@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,52 @@
     <link rel="stylesheet" href="./home/css/fonts.css">
     <title>Conect. | Conexões com várias soluções</title>
     <link rel="icon" href="./home/img/letra-c.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css" integrity="sha512-+ouAqATs1y4kpPMCHfKHVJwf308zo+tC9dlEYK9rKe7kiP35NiP+Oi35rCFnc16zdvk9aBkDUtEO3tIPl0xN5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        function changeTextSize(changeAmount) {
+            var textElements = document.getElementsByClassName("acessibilidade");
+            for (var i = 0; i < textElements.length; i++) {
+                var currentFontSize = window.getComputedStyle(textElements[i]).fontSize;
+                var newSize = parseFloat(currentFontSize) + changeAmount;
+                textElements[i].style.fontSize = newSize + "px";
+            }
+        }
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"
+        integrity="sha512-+ouAqATs1y4kpPMCHfKHVJwf308zo+tC9dlEYK9rKe7kiP35NiP+Oi35rCFnc16zdvk9aBkDUtEO3tIPl0xN5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
     <header>
         <a href="home.html"><img id='logo' src="./home/img/conect-logo.png" alt=""></a>
-        
+
         <ul>
-            <li><a id="freelancer-login" href="./formulário-freelancer/formulario-freelancer.html">Sou Freelancer</a></li>
+            <li><a id="freelancer-login" href="./formulário-freelancer/formulario-freelancer.html">Sou Freelancer</a>
+            </li>
             <li><a id="cliente-login" href="./formulário-usuario/formulario-usuario.html">Quero Contratar</a></li>
         </ul>
     </header>
     <main>
         <div id="primeiro">
             <aside>
-                <h2 class="chamada">Conexões com</h2>
-                <h2 class="chamada">várias soluções</h2>
+                <h2 class="chamada acessibilidade">Conexões com</h2>
+                <h2 class="chamada acessibilidade">várias soluções</h2>
+                
+                <p class="acessibilidade">Conecte-se a oportunidades ilimitadas em soluções tecnológicas com a plataforma líder no segmento</p>
 
-                <p>Conecte-se a oportunidades ilimitadas em soluções tecnológicas com a plataforma líder no segmento</p>
-
-                <a href="#segundo"><input id="btn-saiba-mais" type="button" value="Saiba Mais"></a>
+                <a href="#segundo"><input id="btn-saiba-mais" class="acessibilidade" type="button" value="Saiba Mais"></a>
             </aside>
 
             <img id="personagem" src="./home/img/3d-main.png" alt="">
@@ -68,14 +85,16 @@
                     <i class="fa-solid fa-person-chalkboard fa-2x consultoria"></i>
                     <h6>Consultoria</h6>
                     <p>
-                        Consultoria para ajudar sua empresa a tomar decisões estratégicas e a se adaptar às tendências tecnológicas.
+                        Consultoria para ajudar sua empresa a tomar decisões estratégicas e a se adaptar às tendências
+                        tecnológicas.
                     </p>
                 </div>
                 <div id="treinamento">
                     <i class="fa-solid fa-chalkboard-user fa-2x treinamento"></i>
                     <h6>Treinamento</h6>
                     <p>
-                        Treinamento para sua equipe para garantir que eles estejam atualizados com as últimas tecnologias e habilidades.
+                        Treinamento para sua equipe para garantir que eles estejam atualizados com as últimas
+                        tecnologias e habilidades.
                     </p>
                 </div>
             </div>
@@ -84,7 +103,7 @@
         <div id="terceiro">
             <div id="freelancer-cad">
                 <aside id="freelancer-img">
-                    <img src="./home/img/freelancer-img.png"/>
+                    <img src="./home/img/freelancer-img.png" />
                 </aside>
 
                 <div id="freelancer-txt">
@@ -92,24 +111,28 @@
                         Freelancer?
                     </h6>
                     <p>
-                        Transforme suas habilidades e conhecimentos em realizações concretas e alcance novos horizontes como freelancer em nossa plataforma inovadora e conectada.
+                        Transforme suas habilidades e conhecimentos em realizações concretas e alcance novos horizontes
+                        como freelancer em nossa plataforma inovadora e conectada.
                     </p>
-                    <a href="./formulário-freelancer/formulario-freelancer.html"><input id="btn-cadastro-freelancer" type="button" value="CADASTRE-SE"></a>
+                    <a href="./formulário-freelancer/formulario-freelancer.html"><input id="btn-cadastro-freelancer"
+                            type="button" value="CADASTRE-SE"></a>
                 </div>
-             </div>
+            </div>
             <div id="cliente">
                 <div id="cliente-txt">
                     <h6>
                         Possui problemas?
                     </h6>
                     <p>
-                        Aqui você pode navegar por perfis de freelancers, encontrar a pessoa certa para o seu projeto de forma segura e fácil. Junte-se a nós agora e dê um upgrade em sua estratégia tecnológica!
+                        Aqui você pode navegar por perfis de freelancers, encontrar a pessoa certa para o seu projeto de
+                        forma segura e fácil. Junte-se a nós agora e dê um upgrade em sua estratégia tecnológica!
                     </p>
-                    <a href="./formulário-usuario/formulario-usuario.html"><input id="btn-cadastro-freelancer" type="button" value="CADASTRE-SE"></a>
+                    <a href="./formulário-usuario/formulario-usuario.html"><input id="btn-cadastro-freelancer"
+                            type="button" value="CADASTRE-SE"></a>
                 </div>
 
                 <div id="cliente-img">
-                    <img src="./home/img/cliente-img.png"/>
+                    <img src="./home/img/cliente-img.png" />
                 </div>
             </div>
         </div>
@@ -135,7 +158,8 @@
                 <div id="aval-isabela">
                     <i class="fa-sharp fa-solid fa-quote-left fa-2x aspas"></i>
                     <p>
-                        Eu fiquei impressionada com a qualidade e variedade de freelancers disponíveis na plataforma. Encontrei o profissional perfeito para o meu projeto.
+                        Eu fiquei impressionada com a qualidade e variedade de freelancers disponíveis na plataforma.
+                        Encontrei o profissional perfeito para o meu projeto.
                     </p>
                     <i class="fa-solid fa-star star"></i>
                     <i class="fa-solid fa-star star"></i>
@@ -148,7 +172,8 @@
                 <div id="aval-lucas">
                     <i class="fa-sharp fa-solid fa-quote-left fa-2x aspas"></i>
                     <p>
-                        Como freelancer, esta plataforma me proporcionou uma rede ampla de oportunidades de trabalho e acesso a clientes. Consegui complementar muito minha renda mensal.
+                        Como freelancer, esta plataforma me proporcionou uma rede ampla de oportunidades de trabalho e
+                        acesso a clientes. Consegui complementar muito minha renda mensal.
                     </p>
                     <i class="fa-solid fa-star star"></i>
                     <i class="fa-solid fa-star star"></i>
@@ -161,7 +186,8 @@
                 <div id="aval-camila">
                     <i class="fa-sharp fa-solid fa-quote-left fa-2x aspas"></i>
                     <p>
-                        Aprecio a facilidade de uso da plataforma e a segurança dos pagamentos. Além disso, a equipe de suporte foi incrivelmente útil em todas as etapas do processo.
+                        Aprecio a facilidade de uso da plataforma e a segurança dos pagamentos. Além disso, a equipe de
+                        suporte foi incrivelmente útil em todas as etapas do processo.
                     </p>
                     <i class="fa-solid fa-star star"></i>
                     <i class="fa-solid fa-star star"></i>
@@ -175,5 +201,11 @@
             <img src="./home/img/pensando.png" alt="" id="img-teste">
         </div>
     </main>
+    <div id="btn-acessibilidade">
+        <button id="aumentar" onclick="changeTextSize(5)">A+</button>
+        <button id="diminuir" onclick="changeTextSize(-5)">a-</button>
+    </div>
+    
 </body>
+
 </html>
