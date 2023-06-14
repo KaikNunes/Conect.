@@ -17,6 +17,16 @@ body {
   margin: 0 auto;
 }
 
+#increase-font{
+  color: #000000;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.increase-font:hover{
+  cursor: pointer;
+}
+
 header {
   display: flex;
   flex-direction: row;
