@@ -762,6 +762,10 @@ h6 {
     width: 50%;
   }
 
+  #aval-isabela{
+    display: none;
+  }
+
   #img-teste{
     width: 100%;
   }
