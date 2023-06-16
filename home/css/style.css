@@ -670,7 +670,7 @@ h6 {
   color: #ffffff;
 } */
 
-#aumentar:hover{
+#aumentar:hover {
   visibility: visible;
 }
 
@@ -682,55 +682,76 @@ h6 {
 }
 
 .wrapper:hover .tooltip,
-.wrapper .tooltip:hover #aumentar:hover #diminuir:hover{
+.wrapper .tooltip:hover #aumentar:hover #diminuir:hover {
   top: -45px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-.tooltip{
+.tooltip {
   margin-top: -20px;
 }
 
-.fa-universal-access{
+.fa-universal-access {
   color: #0087B6;
 }
 
 /* Estilos para telas pequenas */
 @media screen and (max-width: 480px) {
-body{
-  width: 414px;
-  overflow-x: hidden;
-}
+  body {
+    width: 414px;
+    overflow-x: hidden;
+  }
 
   header {
     width: 100%;
     position: relative;
   }
 
-  #freelancer-login, #cliente-login{
+  .primeiro{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center
+  }
+
+  #freelancer-login,
+  #cliente-login {
     visibility: hidden;
   }
 
   #logo {
-  position: absolute;
-  left: 40%;
-  margin-top: -7%;
-}
+    position: absolute;
+    left: 40%;
+    margin-top: -7%;
+  }
 
-.chamada{
-  margin-left: 250px;
-  display: flex;
-  justify-content: center;
-}
+  .chamada {
+    margin-left: 250px;
+    text-align: center;
+  }
 
-  #personagem{
+  .paragrafo {
+    margin-left: 250px;
+    text-align: center;
+  }
+
+  #btn-saiba-mais{
+    margin-left: 325px;
+  }
+
+  #personagem {
     visibility: hidden;
   }
 
-  #cliente-img{
+  .titulo2{
+    margin: 15px 0px;
+    line-height: 40px;
+    font-size: 35px;
+  }
+
+  #cliente-img {
     visibility: hidden;
   }
-  
+
 }
