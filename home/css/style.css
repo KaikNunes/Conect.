@@ -435,77 +435,6 @@ h6 {
   font-size: 20px;
 }
 
-/* #cadastre-se{
-    background-color: #0A1A44;
-    width: 33.33%;
-    height: 324px;
-    margin-top: 3px;
-    align-content: center;
-  }
-
-  #cadastre-se img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #cadastre-se p{
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 0 5px 0 5px;
-    background-color: #8C52FF;
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-  }
-
-  #procure{
-    background-color: #8C52FF;
-    width: 33.33%;
-    height: 324px;
-    margin: 3px 3px 0 3px;
-  }
-
-  #procure img{
-    padding-left: 35%;
-    padding-top: 15%;
-  }
-
-  #procure p{
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 0 5px 0 5px;
-    background-color: #0A1A44;
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-  }
-
-  #negocio{
-    background-color: #0A1A44;
-    width: 33.33%;
-    height: 324px;
-    margin-top: 3px;
-  }
-
-  #negocio img{
-    padding-left: 35%;
-    padding-top: 20%;
-  }
-
-  #negocio p{
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 0 5px 0 5px;
-    background-color: #8C52FF;
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-  } */
-
 #quinto {
   height: 650px;
 }
@@ -804,7 +733,37 @@ h6 {
   }
 
   #btn-cadastro-cliente{
-    margin-top: -1000px;
+
+  }
+
+
+/* QUADRINHOS */
+  #quarto{
+    flex-direction: column;
+  }
+
+  #cadastre-se, #procure, #negocio{
+    margin: 2px 0;
+    padding: none;
+    width: 414px;
+  }
+
+  #cadastre-se p, #procure p,#negocio p{
+    width: 150px;
+  }
+
+  #avaliacoes{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #aval-isabela, #aval-lucas, #aval-camila{
+    margin: 0px 0px 50px 110px;
+    width: 50%;
+  }
+
+  #img-teste{
+    width: 100%;
   }
 
 }
