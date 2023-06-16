@@ -750,6 +750,15 @@ h6 {
     font-size: 35px;
   }
 
+  #sup-ger, #consul-trei{
+    flex-direction: column;
+  }
+
+  #suporte, #gerenciamento, #consultoria, #treinamento{
+    width: 325px;
+    margin: 10px 100px 30px 45px
+  }
+
   #cliente-img {
     visibility: hidden;
   }
