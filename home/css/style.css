@@ -717,7 +717,12 @@ body{
   position: absolute;
   left: 40%;
   margin-top: -7%;
+}
 
+.chamada{
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
 }
 
   #personagem{
