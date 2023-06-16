@@ -318,7 +318,7 @@ h6 {
   font-size: 16px;
 }
 
-#btn-cadastro-freelancer {
+#btn-cadastro-freelancer, #btn-cadastro-cliente {
   background-color: #ffffff;
   border: none;
   color: #000000;
@@ -336,7 +336,7 @@ h6 {
   border-radius: 5px;
 }
 
-#btn-cadastro-freelancer:hover {
+#btn-cadastro-freelancer:hover, #btn-cadastro-cliente:hover {
   background-color: #999;
   color: #ffffff;
   transition: 0.2s;
@@ -704,6 +704,7 @@ h6 {
     overflow-x: hidden;
   }
 
+/* CABECALHO */
   header {
     width: 100%;
     position: relative;
@@ -726,6 +727,7 @@ h6 {
     margin-top: -7%;
   }
 
+/* PRIMEIRA PARTE */
   .chamada {
     margin-left: 260px;
     text-align: center;
@@ -750,6 +752,7 @@ h6 {
     font-size: 35px;
   }
 
+  /* GRID */
   #sup-ger, #consul-trei{
     flex-direction: column;
   }
@@ -759,8 +762,49 @@ h6 {
     margin: 10px 100px 30px 45px
   }
 
-  #cliente-img {
+
+  /* CHAMADA FREELANCER */
+  #freelancer-img, #cliente-img {
     visibility: hidden;
+  }
+
+  #freelancer-cad{
+    margin-left: -200px;
+  }
+
+  #freelancer-txt h6{
+    margin-left: -325px;
+    margin-top: -40px;
+  }
+
+  #freelancer-txt p{
+    margin-left: -325px;
+    max-width: 350px;
+  }
+
+  #btn-cadastro-freelancer{
+    margin-left: -250px;
+  }
+
+  /* CHAMADA CLIENTE */
+  #cliente{
+    justify-content: center;
+  }
+
+  #cliente-txt h6{
+    margin-top: -40px;
+    margin-left: 350px;
+    width: 100%;
+  }
+
+  #cliente-txt p{
+    margin-left: 310px;
+    width: 350px;
+    text-align: end;
+  }
+
+  #btn-cadastro-cliente{
+    margin-top: -1000px;
   }
 
 }
