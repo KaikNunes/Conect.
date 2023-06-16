@@ -691,6 +691,10 @@ h6 {
     margin: 10px 100px 30px 45px;
   }
 
+  #suporte p, #gerenciamento p, #consultoria p, #treinamento ´p{
+    max-width: 300px;
+  }
+
 
   /* CHAMADA FREELANCER */
   #freelancer-img, #cliente-img {
