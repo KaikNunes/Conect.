@@ -714,9 +714,9 @@ body{
 
   #logo {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
+  left: 40%;
+  margin-top: -7%;
+
 }
 
   #personagem{
