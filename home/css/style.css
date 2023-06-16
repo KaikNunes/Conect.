@@ -696,3 +696,35 @@ h6 {
 .fa-universal-access{
   color: #0087B6;
 }
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 480px) {
+body{
+  width: 414px;
+}
+
+  header {
+    width: 100%;
+    position: relative;
+  }
+
+  #freelancer-login, #cliente-login{
+    visibility: hidden;
+  }
+
+  #logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+  #personagem{
+    visibility: hidden;
+  }
+
+  #cliente-img{
+    visibility: hidden;
+  }
+  
+}
