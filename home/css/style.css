@@ -782,34 +782,34 @@ h6 {
   }
 
   .chamada, .paragrafo {
-    margin-left: 240px;
+    margin-left: 15rem;
     text-align: center;
   }
 
   #btn-saiba-mais{
-    margin-left: 323px;
+    margin-left: 20.1875rem;
   }
 
   .titulo2{
-    margin: 15px 0px;
-    margin-left: -15px;
+    margin: 0.9375rem 0rem;
+    margin-left: -0.9375rem;
     line-height: 2.5rem;
     font-size: 2.1875rem;
   }
 
   #suporte, #gerenciamento, #consultoria, #treinamento{
-    width: 310px;
-    margin: 10px 100px 30px 41px;
+    width: 19.375rem;
+    margin: 0.625rem 6.25rem 1.875rem 2.5625rem;
   }
 
   #cliente-txt h6{
     margin-top: -2.5rem;
-    margin-bottom: 20px;
-    margin-left: 350px;
+    margin-bottom: 1.25rem;
+    margin-left: 21.25rem;
   }
 
   #aval-isabela, #aval-lucas, #aval-camila{
-    margin: 0px 0px 50px 94px;
+    margin: 0rem 0rem 3.125rem 5.875rem;
     width: 50%;
   }
 }
