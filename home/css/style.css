@@ -657,12 +657,7 @@ h6 {
   }
 
 /* PRIMEIRA PARTE */
-  .chamada {
-    margin-left: 16.25rem;
-    text-align: center;
-  }
-
-  .paragrafo {
+  .chamada, .paragrafo {
     margin-left: 16.25rem;
     text-align: center;
   }
