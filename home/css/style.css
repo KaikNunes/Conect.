@@ -861,14 +861,18 @@ h6 {
 
 #cliente-txt h6{
   margin-top: -40px;
-  margin-left: 350px;
+  margin-left: 340px;
   width: 100%;
 }
 
 #cliente-txt p{
-  margin-left: 310px;
+  margin-left: 300px;
   width: 350px;
   text-align: end;
+}
+
+#btn-cadastro-cliente{
+  margin-right: 60px;
 }
 
 /* QUADRINHOS */
