@@ -627,7 +627,7 @@ h6 {
 }
 
 /* Estilos para telas pequenas */
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 480px) {
   body {
     width: 25.875rem;
     overflow-x: hidden;
@@ -772,4 +772,44 @@ h6 {
     width: 100%;
   }
 
+}
+
+@media screen and (max-width: 410px) {
+  #logo {
+    position: absolute;
+    left: 36%;
+    margin-top: -7%;
+  }
+
+  .chamada, .paragrafo {
+    margin-left: 240px;
+    text-align: center;
+  }
+
+  #btn-saiba-mais{
+    margin-left: 323px;
+  }
+
+  .titulo2{
+    margin: 15px 0px;
+    margin-left: -15px;
+    line-height: 2.5rem;
+    font-size: 2.1875rem;
+  }
+
+  #suporte, #gerenciamento, #consultoria, #treinamento{
+    width: 310px;
+    margin: 10px 100px 30px 41px;
+  }
+
+  #cliente-txt h6{
+    margin-top: -2.5rem;
+    margin-bottom: 20px;
+    margin-left: 350px;
+  }
+
+  #aval-isabela, #aval-lucas, #aval-camila{
+    margin: 0px 0px 50px 94px;
+    width: 50%;
+  }
 }
