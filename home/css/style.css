@@ -13,13 +13,13 @@ body {
   color: white;
   font-family: "codecpro";
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0 auto;
 }
 
 #increase-font {
   color: #000000;
-  margin-left: 0.625rem;
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -33,14 +33,15 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  height: 4.6875rem;
+  height: 75px;
   width: 100%;
   position: fixed;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #logo {
-  width: 6.25rem;
+  margin-top: 9px;
+  width: 100px;
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
 }
 
 header ul li {
-  margin: 0.625rem;
+  margin: 10px;
 }
 
 a {
@@ -62,8 +63,8 @@ a:hover {
 
 #freelancer-login {
   background-color: #8c52ff;
-  padding: 0.5rem;
-  border-radius: 0.9375rem;
+  padding: 8px;
+  border-radius: 15px;
 }
 
 #freelancer-login:hover {
@@ -78,8 +79,8 @@ a:hover {
 
 #cliente-login {
   background-color: #8c52ff;
-  padding: 0.5rem;
-  border-radius: 0.9375rem;
+  padding: 8px;
+  border-radius: 15px;
 }
 
 #cliente-login:hover {
@@ -95,7 +96,7 @@ main {
 #primeiro {
   background-image: linear-gradient(to right, #8c52ff, #0a1a44);
   width: 100%;
-  height: 40.625rem;
+  height: 650px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,62 +104,62 @@ main {
 }
 
 .chamada {
-  padding-left: 4.8125rem;
-  font-size: 3.125rem;
-  line-height: 3.125rem;
+  padding-left: 77px;
+  font-size: 50px;
+  line-height: 50px;
   font-family: "codecproextrabold";
 }
 
 #primeiro p {
-  padding-left: 4.8125rem;
-  margin-top: 1.875rem;
-  max-width: 31.25rem;
-  font-size: 1.0625rem;
+  padding-left: 77px;
+  margin-top: 30px;
+  max-width: 500px;
+  font-size: 17px;
 }
 
 h6 {
-  padding-left: 4.8125rem;
-  max-width: 31.25rem;
+  padding-left: 77px;
+  max-width: 500px;
 }
 
 #personagem {
-  width: 21.25rem;
-  padding-right: 4.8125rem;
+  width: 340px;
+  padding-right: 77px;
 }
 
 #btn-saiba-mais {
-  margin-left: 4.8125rem;
-  margin-top: 1.875rem;
-  padding-left: 4.375rem;
-  padding-right: 4.375rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  border-radius: 3.125rem;
+  margin-left: 77px;
+  margin-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 50px;
   background: #57e4ff;
   color: white;
   border: none;
   font-family: "codecpro";
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 18px;
   text-align: center;
   cursor: pointer;
   transition: 0.4s;
 }
 
 #btn-saiba-mais:hover {
-  box-shadow: 0.4375rem 0.3125rem 3.5rem -0.875rem #57e4ff;
+  box-shadow: 7px 5px 56px -14px #57e4ff;
 }
 
 #btn-saiba-mais:active {
   transform: scale(0.97);
-  box-shadow: 0.4375rem 0.3125rem 3.5rem -0.625rem #57e4ff;
+  box-shadow: 7px 5px 56px -10px #57e4ff;
 }
 
 .titulo2 {
   text-align: center;
   color: #8c52ff;
   font-family: "codecproextrabold";
-  font-size: 2.8125rem;
+  font-size: 45px;
 }
 
 #segundo {
@@ -166,7 +167,7 @@ h6 {
 }
 
 #segundo p {
-  padding-left: 4.8125rem;
+  padding-left: 77px;
 }
 
 #sup-ger {
@@ -177,47 +178,47 @@ h6 {
 }
 
 .ferramenta {
-  width: 3.125rem;
-  padding: 0.625rem;
+  width: 50px;
+  padding: 10px;
   background-color: #57e4ff;
-  border-radius: 6.25rem;
-  margin-left: 1.25rem;
-  margin-top: 1.25rem;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #suporte {
   background-color: #0a1a44;
-  border-radius: 1.875rem;
-  width: 28.4375rem;
-  height: 18.9375rem;
+  border-radius: 30px;
+  width: 455px;
+  height: 303px;
 }
 
 #segundo h6 {
   font-family: "codecproextrabold";
-  font-size: 1.25rem;
-  padding-left: 4.8125rem;
+  font-size: 20px;
+  padding-left: 77px;
 }
 
 #segundo p {
   font-family: "codecpro";
-  font-size: 1.0625rem;
+  font-size: 17px;
 }
 
 .computador {
-  width: 3.75rem;
-  padding: 0.625rem;
+  width: 60px;
+  padding: 10px;
   background-color: #57e4ff;
-  border-radius: 6.25rem;
-  margin-left: 1.25rem;
-  margin-top: 1.25rem;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #gerenciamento {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 1.875rem;
-  width: 28.4375rem;
-  height: 18.9375rem;
+  border-radius: 30px;
+  width: 455px;
+  height: 303px;
 }
 
 #consul-trei {
@@ -225,41 +226,41 @@ h6 {
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
-  margin: 1.25rem 0;
+  margin: 20px 0;
 }
 
 .consultoria {
-  width: 3.75rem;
-  padding: 0.625rem 1.375rem 0.625rem 0.625rem;
+  width: 60px;
+  padding: 10px 22px 10px 10px;
   background-color: #57e4ff;
-  border-radius: 6.25rem;
-  margin-left: 1.25rem;
-  margin-top: 1.25rem;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #consultoria {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 1.875rem;
-  width: 28.4375rem;
-  height: 18.9375rem;
+  border-radius: 30px;
+  width: 455px;
+  height: 303px;
 }
 
 .treinamento {
-  width: 3.75rem;
-  padding: 0.625rem 1.375rem 0.625rem 0.625rem;
+  width: 60px;
+  padding: 10px 22px 10px 10px;
   background-color: #57e4ff;
-  border-radius: 6.25rem;
-  margin-left: 1.25rem;
-  margin-top: 1.25rem;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #treinamento {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 1.875rem;
-  width: 28.4375rem;
-  height: 18.9375rem;
+  border-radius: 30px;
+  width: 455px;
+  height: 303px;
 }
 
 #terceiro {
@@ -267,55 +268,53 @@ h6 {
 }
 
 #terceiro p {
-  padding-left: 4.8125rem;
-  max-width: 50rem;
+  padding-left: 77px;
+  max-width: 800px;
 }
 
 #freelancer-cad {
   display: flex;
   flex-direction: row;
-  height: 21.875rem;
+  height: 350px;
   display: flex;
   justify-content: space-evenly;
 }
 
 #freelancer-img {
-  margin-top: 1.25rem;
+  margin-top: 20px;
 }
 
 #freelancer-txt {
-  margin-top: 5.3125rem;
+  margin-top: 85px;
 }
 
 #freelancer-txt h6 {
   font-family: "codecproextrabold";
-  font-size: 1.5625rem;
+  font-size: 25px;
 }
 
 #freelancer-txt p {
   font-family: "codecpro";
-  font-size: 1rem;
+  font-size: 16px;
 }
 
-#btn-cadastro-freelancer,
-#btn-cadastro-cliente {
+#btn-cadastro-freelancer, #btn-cadastro-cliente {
   background-color: #ffffff;
   border: none;
   color: #000000;
-  padding: 0.9375rem 0.9375rem;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: bold;
   font-family: "codecpro";
-  margin: 0.625rem 0 0 4.6875rem;
+  margin: 10px 0 0 75px;
   cursor: pointer;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
 }
 
-#btn-cadastro-freelancer:hover,
-#btn-cadastro-cliente:hover {
+#btn-cadastro-freelancer:hover, #btn-cadastro-cliente:hover {
   background-color: #999;
   color: #ffffff;
   transition: 0.2s;
@@ -326,16 +325,16 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  height: 21.875rem;
+  height: 350px;
 }
 
 #cliente-txt {
-  margin-top: 5.3125rem;
+  margin-top: 85px;
 }
 
 #cliente-txt h6 {
   font-family: "codecproextrabold";
-  font-size: 1.5625rem;
+  font-size: 25px;
 }
 
 #cliente-txt p {
@@ -356,18 +355,18 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 0.1875rem;
+  margin-top: 3px;
 }
 
 #cadastre-se p {
-  padding: 0 0.3125rem 0 0.3125rem;
+  padding: 0 5px 0 5px;
   background-color: #8c52ff;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 1.25rem;
-  font-size: 1.25rem;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #procure {
@@ -378,18 +377,18 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0.1875rem;
+  margin: 3px;
 }
 
 #procure p {
-  padding: 0 0.3125rem 0 0.3125rem;
+  padding: 0 5px 0 5px;
   background-color: #0a1a44;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 1.25rem;
-  font-size: 1.25rem;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #negocio {
@@ -400,22 +399,22 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 0.1875rem;
+  margin-top: 3px;
 }
 
 #negocio p {
-  padding: 0 0.3125rem 0 0.3125rem;
+  padding: 0 5px 0 5px;
   background-color: #8c52ff;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 1.25rem;
-  font-size: 1.25rem;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #quinto {
-  height: 40.625rem;
+  height: 650px;
 }
 
 #quinto p {
@@ -426,7 +425,7 @@ h6 {
 #avaliacoes {
   display: flex;
   flex-direction: row;
-  margin-top: 1.875rem;
+  margin-top: 30px;
   justify-content: space-evenly;
 }
 
@@ -472,319 +471,257 @@ h6 {
 
 #aumentar,
 #diminuir {
-  margin-bottom: 0.625rem;
+  margin-bottom: 10px;
   background-color: #999;
   color: white;
-  font-size: 1rem;
+  font-size: 16px;
   border: none;
-  padding: 0.625rem 1.25rem;
+  padding: 10px 20px;
   cursor: pointer;
+}
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.wrapper .icon {
+  position: relative;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 6px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+#aumentar:hover {
+  visibility: visible;
+}
+
+.wrapper:hover .icon .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper:hover .tooltip,
+.wrapper .tooltip:hover #aumentar:hover #diminuir:hover {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.tooltip {
+  margin-top: -20px;
+}
+
+.fa-universal-access {
+  color: #0087B6;
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 480px) {
+  body {
+    width: 414px;
+    overflow-x: hidden;
   }
 
-  *:focus,
-  *:active {
-    outline: none !important;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .wrapper {
-    display: inline-flex;
-    list-style: none;
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(50%);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .wrapper .icon {
+/* CABECALHO */
+  header {
+    width: 100%;
     position: relative;
-    /* background: rgba(0, 0, 0, 10); */
-    border-radius: 50%;
-    padding: 0.9375rem;
-    margin-top: 0.625rem;
-    margin-right: 0.375rem;
-    width: 3.125rem;
-    height: 3.125rem;
-    font-size: 1.125rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.1); */
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
-  .wrapper .tooltip {
+  .primeiro{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center
+  }
+
+  #freelancer-login,
+  #cliente-login {
+    visibility: hidden;
+  }
+
+  #logo {
     position: absolute;
-    top: 0;
-    font-size: 0.875rem;
-    background: #ffffff;
-    color: #ffffff;
-    padding: 0.3125rem 0.5rem;
-    border-radius: 0.3125rem;
-    box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    left: 40%;
+    margin-top: -7%;
   }
 
-  .wrapper .icon:hover .tooltip {
-    top: -2.8125rem;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+/* PRIMEIRA PARTE */
+  .chamada {
+    margin-left: 260px;
+    text-align: center;
   }
 
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
-    text-shadow: 0rem -0.0625rem 0rem rgba(0, 0, 0, 0.1);
+  .paragrafo {
+    margin-left: 260px;
+    text-align: center;
   }
 
-  #aumentar:hover {
-    visibility: visible;
+  #btn-saiba-mais{
+    margin-left: 340px;
   }
 
-  .wrapper:hover .icon .tooltip {
-    top: -2.8125rem;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  #personagem {
+    visibility: hidden;
   }
 
-  .wrapper:hover .tooltip,
-  .wrapper .tooltip:hover #aumentar:hover #diminuir:hover {
-    top: -2.8125rem;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  .titulo2{
+    margin: 15px 0px;
+    line-height: 40px;
+    font-size: 35px;
   }
 
-  .tooltip {
-    margin-top: -1.25rem;
+  /* GRID */
+  #sup-ger, #consul-trei{
+    flex-direction: column;
   }
 
-  .fa-universal-access {
-    color: #0087B6;
+  #suporte, #gerenciamento, #consultoria, #treinamento{
+    width: 325px;
+    margin: 10px 100px 30px 45px;
   }
 
-  /* Estilos para telas pequenas */
-  @media screen and (max-width: 480px) {
-    body {
-      width: 25.875rem;
-      overflow-x: hidden;
-    }
-
-    /* CABECALHO */
-    header {
-      width: 100%;
-      position: relative;
-    }
-
-    .primeiro {
-      width: 30%;
-      margin: 0 auto;
-      text-align: center
-    }
-
-    #freelancer-login,
-    #cliente-login {
-      visibility: hidden;
-    }
-
-    #logo {
-      position: absolute;
-      left: 40%;
-      margin-top: -7%;
-    }
-
-    /* PRIMEIRA PARTE */
-    .chamada,
-    .paragrafo {
-      margin-left: 16.25rem;
-      text-align: center;
-    }
-
-    #btn-saiba-mais {
-      margin-left: 21.25rem;
-    }
-
-    #personagem {
-      visibility: hidden;
-    }
-
-    .titulo2 {
-      margin: 0.9375rem 0rem;
-      line-height: 2.5rem;
-      font-size: 2.1875rem;
-    }
-
-    /* GRID */
-    #sup-ger,
-    #consul-trei {
-      flex-direction: column;
-    }
-
-    #suporte,
-    #gerenciamento,
-    #consultoria,
-    #treinamento {
-      width: 20.3125rem;
-      margin: 0.625rem 6.25rem 1.875rem 2.8125rem;
-    }
-
-    #suporte p,
-    #gerenciamento p,
-    #consultoria p,
-    #treinamento ´p {
-      max-width: 18.75rem;
-    }
+  #suporte p, #gerenciamento p, #consultoria p, #treinamento ´p{
+    max-width: 300px;
+  }
 
 
-    /* CHAMADA FREELANCER */
-    #freelancer-img,
-    #cliente-img {
-      visibility: hidden;
-    }
+  /* CHAMADA FREELANCER */
+  #freelancer-img, #cliente-img {
+    visibility: hidden;
+  }
 
-    #freelancer-cad {
-      margin-left: -12.5rem;
-    }
+  #freelancer-cad{
+    margin-left: -200px;
+  }
 
-    #freelancer-txt h6 {
-      margin-left: -20.3125rem;
-      margin-top: -2.5rem;
-    }
+  #freelancer-txt h6{
+    margin-left: -325px;
+    margin-top: -40px;
+  }
 
-    #freelancer-txt p {
-      margin-left: -20.3125rem;
-      max-width: 21.875rem;
-    }
+  #freelancer-txt p{
+    margin-left: -325px;
+    max-width: 350px;
+  }
 
-    #btn-cadastro-freelancer {
-      margin-left: -15.625rem;
-    }
+  #btn-cadastro-freelancer{
+    margin-left: -250px;
+  }
 
-    /* CHAMADA CLIENTE */
-    #cliente {
-      justify-content: center;
-    }
+  /* CHAMADA CLIENTE */
+  #cliente{
+    justify-content: center;
+  }
 
-    #cliente-txt h6 {
-      margin-top: -2.5rem;
-      margin-bottom: 20px;
-      margin-left: 340px;
-    }
+  #cliente-txt h6{
+    margin-top: -40px;
+    margin-left: 350px;
+    width: 100%;
+  }
 
-    #cliente-txt p {
-      width: 21.875rem;
-      text-align: end;
-      margin-left: 18.75rem;
-      margin-top: -1.25rem;
-    }
+  #cliente-txt p{
+    margin-left: 310px;
+    width: 350px;
+    text-align: end;
+  }
 
-    #btn-cadastro-cliente {
-      position: relative;
-      z-index: 9999;
-      margin-left: 33.125rem;
-    }
-
-
-    /* QUADRINHOS */
-    #quarto {
-      flex-direction: column;
-    }
-
-    #cadastre-se,
-    #procure,
-    #negocio {
-      margin: 0.125rem 0;
-      padding: none;
-      width: 25.875rem;
-    }
-
-    #cadastre-se p,
-    #procure p,
-    #negocio p {
-      width: 9.375rem;
-    }
-
-    #avaliacoes {
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    #aval-isabela,
-    #aval-lucas,
-    #aval-camila {
-      margin: 0rem 0rem 3.125rem 6.875rem;
-      width: 50%;
-    }
-
-    #aval-isabela {
-      display: none;
-    }
-
-    #img-teste {
-      width: 100%;
-    }
+  #btn-cadastro-cliente{
 
   }
 
-  @media screen and (max-width: 410px) {
-    #logo {
-      position: absolute;
-      left: 36%;
-      margin-top: -7%;
-    }
 
-    .chamada,
-    .paragrafo {
-      margin-left: 15rem;
-      text-align: center;
-    }
-
-    #btn-saiba-mais {
-      margin-left: 20.1875rem;
-    }
-
-    .titulo2 {
-      margin: 0.9375rem 0rem;
-      margin-left: -0.9375rem;
-      line-height: 2.5rem;
-      font-size: 2.1875rem;
-    }
-
-    #suporte,
-    #gerenciamento,
-    #consultoria,
-    #treinamento {
-      width: 19.375rem;
-      margin: 0.625rem 6.25rem 1.875rem 2.5625rem;
-    }
-
-    #cliente-txt h6 {
-      margin-top: -2.5rem;
-      margin-bottom: 1.25rem;
-      margin-left: 21.25rem;
-    }
-
-    #aval-isabela,
-    #aval-lucas,
-    #aval-camila {
-      margin: 0rem 0rem 3.125rem 5.875rem;
-      width: 50%;
-    }
+/* QUADRINHOS */
+  #quarto{
+    flex-direction: column;
   }
+
+  #cadastre-se, #procure, #negocio{
+    margin: 2px 0;
+    padding: none;
+    width: 414px;
+  }
+
+  #cadastre-se p, #procure p,#negocio p{
+    width: 150px;
+  }
+
+  #avaliacoes{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #aval-isabela, #aval-lucas, #aval-camila{
+    margin: 0px 0px 50px 110px;
+    width: 50%;
+  }
+
+  #aval-isabela{
+    display: none;
+  }
+
+  #img-teste{
+    width: 100%;
+  }
+
 }
