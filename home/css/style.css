@@ -13,13 +13,13 @@ body {
   color: white;
   font-family: "codecpro";
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0 auto;
 }
 
 #increase-font {
   color: #000000;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   cursor: pointer;
 }
 
@@ -33,14 +33,14 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  height: 75px;
+  height: 4.6875rem;
   width: 100%;
   position: fixed;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
 }
 
 #logo {
-  width: 100px;
+  width: 6.25rem;
 }
 
 ul {
@@ -48,7 +48,7 @@ ul {
 }
 
 header ul li {
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 a {
@@ -62,8 +62,8 @@ a:hover {
 
 #freelancer-login {
   background-color: #8c52ff;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 0.5rem;
+  border-radius: 0.9375rem;
 }
 
 #freelancer-login:hover {
@@ -78,8 +78,8 @@ a:hover {
 
 #cliente-login {
   background-color: #8c52ff;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 0.5rem;
+  border-radius: 0.9375rem;
 }
 
 #cliente-login:hover {
@@ -95,7 +95,7 @@ main {
 #primeiro {
   background-image: linear-gradient(to right, #8c52ff, #0a1a44);
   width: 100%;
-  height: 650px;
+  height: 40.625rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,40 +103,40 @@ main {
 }
 
 .chamada {
-  padding-left: 77px;
-  font-size: 50px;
-  line-height: 50px;
+  padding-left: 4.8125rem;
+  font-size: 3.125rem;
+  line-height: 3.125rem;
   font-family: "codecproextrabold";
 }
 
 #primeiro p {
-  padding-left: 77px;
-  margin-top: 30px;
-  max-width: 500px;
-  font-size: 17px;
+  padding-left: 4.8125rem;
+  margin-top: 1.875rem;
+  max-width: 31.25rem;
+  font-size: 1.0625rem;
 }
 
 h6 {
-  padding-left: 77px;
-  max-width: 500px;
+  padding-left: 4.8125rem;
+  max-width: 31.25rem;
 }
 
 #personagem {
-  width: 340px;
-  padding-right: 77px;
+  width: 21.25rem;
+  padding-right: 4.8125rem;
 }
 
 /*
 #btn-saiba-mais{
     font-family: 'codecpro';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     width: 50%;
-    margin-top: 30px;
-    margin-left: 77px;
-    padding: 15px;
+    margin-top: 1.875rem;
+    margin-left: 4.8125rem;
+    padding: 0.9375rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     cursor: pointer;
     background-color: #57E4FF;
     color: white;
@@ -148,38 +148,38 @@ h6 {
 */
 
 #btn-saiba-mais {
-  margin-left: 77px;
-  margin-top: 30px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 16px;
-  padding-top: 16px;
-  border-radius: 50px;
+  margin-left: 4.8125rem;
+  margin-top: 1.875rem;
+  padding-left: 4.375rem;
+  padding-right: 4.375rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-radius: 3.125rem;
   background: #57e4ff;
   color: white;
   border: none;
   font-family: "codecpro";
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
   cursor: pointer;
   transition: 0.4s;
 }
 
 #btn-saiba-mais:hover {
-  box-shadow: 7px 5px 56px -14px #57e4ff;
+  box-shadow: 0.4375rem 0.3125rem 3.5rem -0.875rem #57e4ff;
 }
 
 #btn-saiba-mais:active {
   transform: scale(0.97);
-  box-shadow: 7px 5px 56px -10px #57e4ff;
+  box-shadow: 0.4375rem 0.3125rem 3.5rem -0.625rem #57e4ff;
 }
 
 .titulo2 {
   text-align: center;
   color: #8c52ff;
   font-family: "codecproextrabold";
-  font-size: 45px;
+  font-size: 2.8125rem;
 }
 
 #segundo {
@@ -187,7 +187,7 @@ h6 {
 }
 
 #segundo p {
-  padding-left: 77px;
+  padding-left: 4.8125rem;
 }
 
 #sup-ger {
@@ -198,47 +198,47 @@ h6 {
 }
 
 .ferramenta {
-  width: 50px;
-  padding: 10px;
+  width: 3.125rem;
+  padding: 0.625rem;
   background-color: #57e4ff;
-  border-radius: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
+  border-radius: 6.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #suporte {
   background-color: #0a1a44;
-  border-radius: 30px;
-  width: 455px;
-  height: 303px;
+  border-radius: 1.875rem;
+  width: 28.4375rem;
+  height: 18.9375rem;
 }
 
 #segundo h6 {
   font-family: "codecproextrabold";
-  font-size: 20px;
-  padding-left: 77px;
+  font-size: 1.25rem;
+  padding-left: 4.8125rem;
 }
 
 #segundo p {
   font-family: "codecpro";
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .computador {
-  width: 60px;
-  padding: 10px;
+  width: 3.75rem;
+  padding: 0.625rem;
   background-color: #57e4ff;
-  border-radius: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
+  border-radius: 6.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #gerenciamento {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 30px;
-  width: 455px;
-  height: 303px;
+  border-radius: 1.875rem;
+  width: 28.4375rem;
+  height: 18.9375rem;
 }
 
 #consul-trei {
@@ -246,41 +246,41 @@ h6 {
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .consultoria {
-  width: 60px;
-  padding: 10px 22px 10px 10px;
+  width: 3.75rem;
+  padding: 0.625rem 1.375rem 0.625rem 0.625rem;
   background-color: #57e4ff;
-  border-radius: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
+  border-radius: 6.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #consultoria {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 30px;
-  width: 455px;
-  height: 303px;
+  border-radius: 1.875rem;
+  width: 28.4375rem;
+  height: 18.9375rem;
 }
 
 .treinamento {
-  width: 60px;
-  padding: 10px 22px 10px 10px;
+  width: 3.75rem;
+  padding: 0.625rem 1.375rem 0.625rem 0.625rem;
   background-color: #57e4ff;
-  border-radius: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
+  border-radius: 6.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #treinamento {
   text-align: left;
   background-color: #0a1a44;
-  border-radius: 30px;
-  width: 455px;
-  height: 303px;
+  border-radius: 1.875rem;
+  width: 28.4375rem;
+  height: 18.9375rem;
 }
 
 #terceiro {
@@ -288,52 +288,52 @@ h6 {
 }
 
 #terceiro p {
-  padding-left: 77px;
-  max-width: 800px;
+  padding-left: 4.8125rem;
+  max-width: 50rem;
 }
 
 #freelancer-cad {
   display: flex;
   flex-direction: row;
-  height: 350px;
+  height: 21.875rem;
   display: flex;
   justify-content: space-evenly;
 }
 
 #freelancer-img {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 #freelancer-txt {
-  margin-top: 85px;
+  margin-top: 5.3125rem;
 }
 
 #freelancer-txt h6 {
   font-family: "codecproextrabold";
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 #freelancer-txt p {
   font-family: "codecpro";
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #btn-cadastro-freelancer, #btn-cadastro-cliente {
   background-color: #ffffff;
   border: none;
   color: #000000;
-  padding: 15px 15px;
+  padding: 0.9375rem 0.9375rem;
   /* Define o espaçamento interno do botão */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: bold;
   font-family: "codecpro";
-  margin: 10px 0 0 75px;
+  margin: 0.625rem 0 0 4.6875rem;
   /* Define o espaçamento externo do botão */
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 #btn-cadastro-freelancer:hover, #btn-cadastro-cliente:hover {
@@ -347,16 +347,16 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  height: 350px;
+  height: 21.875rem;
 }
 
 #cliente-txt {
-  margin-top: 85px;
+  margin-top: 5.3125rem;
 }
 
 #cliente-txt h6 {
   font-family: "codecproextrabold";
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 #cliente-txt p {
@@ -377,18 +377,18 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3px;
+  margin-top: 0.1875rem;
 }
 
 #cadastre-se p {
-  padding: 0 5px 0 5px;
+  padding: 0 0.3125rem 0 0.3125rem;
   background-color: #8c52ff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
 }
 
 #procure {
@@ -399,18 +399,18 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 3px;
+  margin: 0.1875rem;
 }
 
 #procure p {
-  padding: 0 5px 0 5px;
+  padding: 0 0.3125rem 0 0.3125rem;
   background-color: #0a1a44;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
 }
 
 #negocio {
@@ -421,22 +421,22 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3px;
+  margin-top: 0.1875rem;
 }
 
 #negocio p {
-  padding: 0 5px 0 5px;
+  padding: 0 0.3125rem 0 0.3125rem;
   background-color: #8c52ff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   align-items: center;
   text-align: center;
   width: 30%;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
 }
 
 #quinto {
-  height: 650px;
+  height: 40.625rem;
 }
 
 #quinto p {
@@ -447,7 +447,7 @@ h6 {
 #avaliacoes {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   justify-content: space-evenly;
 }
 
@@ -493,16 +493,16 @@ h6 {
 
 #aumentar,
 #diminuir {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   background-color: #999;
   /* Cor de fundo */
   color: white;
   /* Cor do texto */
-  font-size: 16px;
+  font-size: 1rem;
   /* Tamanho da fonte */
   border: none;
   /* Remover borda */
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   /* Preenchimento interno */
   cursor: pointer;
   /* Cursor de ponteiro ao passar o mouse */
@@ -538,17 +538,17 @@ h6 {
   position: relative;
   /* background: rgba(0, 0, 0, 10); */
   border-radius: 50%;
-  padding: 15px;
-  margin-top: 10px;
-  margin-right: 6px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
+  padding: 0.9375rem;
+  margin-top: 0.625rem;
+  margin-right: 0.375rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  font-size: 1.125rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.1); */
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -556,12 +556,12 @@ h6 {
 .wrapper .tooltip {
   position: absolute;
   top: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   background: #ffffff;
   color: #ffffff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 0.3125rem 0.5rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.5);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -570,17 +570,17 @@ h6 {
 /* .wrapper .tooltip::before {
   position: absolute;
   content: "";
-  height: 8px;
-  width: 8px;
+  height: 0.5rem;
+  width: 0.5rem;
   background: blue;
-  bottom: -3px;
+  bottom: -0.1875rem;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 } */
 
 .wrapper .icon:hover .tooltip {
-  top: -45px;
+  top: -2.8125rem;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -588,7 +588,7 @@ h6 {
 
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0rem -0.0625rem 0rem rgba(0, 0, 0, 0.1);
 }
 
 
@@ -604,7 +604,7 @@ h6 {
 }
 
 .wrapper:hover .icon .tooltip {
-  top: -45px;
+  top: -2.8125rem;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -612,14 +612,14 @@ h6 {
 
 .wrapper:hover .tooltip,
 .wrapper .tooltip:hover #aumentar:hover #diminuir:hover {
-  top: -45px;
+  top: -2.8125rem;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
 .tooltip {
-  margin-top: -20px;
+  margin-top: -1.25rem;
 }
 
 .fa-universal-access {
@@ -627,9 +627,9 @@ h6 {
 }
 
 /* Estilos para telas pequenas */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   body {
-    width: 414px;
+    width: 25.875rem;
     overflow-x: hidden;
   }
 
@@ -658,17 +658,17 @@ h6 {
 
 /* PRIMEIRA PARTE */
   .chamada {
-    margin-left: 260px;
+    margin-left: 16.25rem;
     text-align: center;
   }
 
   .paragrafo {
-    margin-left: 260px;
+    margin-left: 16.25rem;
     text-align: center;
   }
 
   #btn-saiba-mais{
-    margin-left: 340px;
+    margin-left: 21.25rem;
   }
 
   #personagem {
@@ -676,9 +676,9 @@ h6 {
   }
 
   .titulo2{
-    margin: 15px 0px;
-    line-height: 40px;
-    font-size: 35px;
+    margin: 0.9375rem 0rem;
+    line-height: 2.5rem;
+    font-size: 2.1875rem;
   }
 
   /* GRID */
@@ -687,12 +687,12 @@ h6 {
   }
 
   #suporte, #gerenciamento, #consultoria, #treinamento{
-    width: 325px;
-    margin: 10px 100px 30px 45px;
+    width: 20.3125rem;
+    margin: 0.625rem 6.25rem 1.875rem 2.8125rem;
   }
 
   #suporte p, #gerenciamento p, #consultoria p, #treinamento ´p{
-    max-width: 300px;
+    max-width: 18.75rem;
   }
 
 
@@ -702,21 +702,21 @@ h6 {
   }
 
   #freelancer-cad{
-    margin-left: -200px;
+    margin-left: -12.5rem;
   }
 
   #freelancer-txt h6{
-    margin-left: -325px;
-    margin-top: -40px;
+    margin-left: -20.3125rem;
+    margin-top: -2.5rem;
   }
 
   #freelancer-txt p{
-    margin-left: -325px;
-    max-width: 350px;
+    margin-left: -20.3125rem;
+    max-width: 21.875rem;
   }
 
   #btn-cadastro-freelancer{
-    margin-left: -250px;
+    margin-left: -15.625rem;
   }
 
   /* CHAMADA CLIENTE */
@@ -725,19 +725,22 @@ h6 {
   }
 
   #cliente-txt h6{
-    margin-top: -40px;
-    margin-left: 350px;
-    width: 100%;
+    margin-top: -2.5rem;
+    margin-bottom: 20px;
+    margin-left: 340px;
   }
 
   #cliente-txt p{
-    margin-left: 310px;
-    width: 350px;
+    width: 21.875rem;
     text-align: end;
+    margin-left: 18.75rem;
+    margin-top: -1.25rem;
   }
 
   #btn-cadastro-cliente{
-
+    position: relative;
+    z-index: 9999;
+    margin-left: 33.125rem;
   }
 
 
@@ -747,13 +750,13 @@ h6 {
   }
 
   #cadastre-se, #procure, #negocio{
-    margin: 2px 0;
+    margin: 0.125rem 0;
     padding: none;
-    width: 414px;
+    width: 25.875rem;
   }
 
   #cadastre-se p, #procure p,#negocio p{
-    width: 150px;
+    width: 9.375rem;
   }
 
   #avaliacoes{
@@ -762,7 +765,7 @@ h6 {
   }
 
   #aval-isabela, #aval-lucas, #aval-camila{
-    margin: 0px 0px 50px 110px;
+    margin: 0rem 0rem 3.125rem 6.875rem;
     width: 50%;
   }
 
