@@ -798,114 +798,37 @@ h6 {
     margin-top: -7%;
   }
 
-  .chamada,
-  .paragrafo {
-    margin-left: 15rem;
+  .chamada, .paragrafo {
+    margin-left: 240px;
     text-align: center;
   }
 
-  #btn-saiba-mais {
-    margin-left: 20.1875rem;
+  #btn-saiba-mais{
+    margin-left: 323px;
   }
 
-  .titulo2 {
-    margin: 0.9375rem 0rem;
-    margin-left: -0.9375rem;
+  .titulo2{
+    margin: 15px 0px;
+    margin-left: -15px;
     line-height: 2.5rem;
     font-size: 2.1875rem;
   }
 
-  #suporte,
-  #gerenciamento,
-  #consultoria,
-  #treinamento {
-    width: 19.375rem;
-    margin: 0.625rem 6.25rem 1.875rem 2.5625rem;
+  #suporte, #gerenciamento, #consultoria, #treinamento{
+    width: 310px;
+    margin: 10px 100px 30px 41px;
   }
 
-  #cliente-txt h6 {
+  #cliente-txt h6{
     margin-top: -2.5rem;
-    margin-bottom: 1.25rem;
-    margin-left: 21.25rem;
+    margin-bottom: 20px;
+    margin-left: 350px;
   }
 
-  #aval-isabela,
-  #aval-lucas,
-  #aval-camila {
-    margin: 0rem 0rem 3.125rem 5.875rem;
+  #aval-isabela, #aval-lucas, #aval-camila{
+    margin: 0px 0px 50px 94px;
     width: 50%;
   }
-#freelancer-cad{
-  margin-left: -2.6667rem;
-}
-
-#freelancer-txt h6{
-  margin-left: -4.3333rem;
-  margin-top: -0.5333rem;
-}
-
-#freelancer-txt p{
-  margin-left: -4.3333rem;
-  max-width: 4.6667rem;
-}
-
-#btn-cadastro-freelancer{
-  margin-left: -3.3333rem;
-}
-
-/* CHAMADA CLIENTE */
-#cliente{
-  justify-content: center;
-}
-
-#cliente-txt h6{
-  margin-top: -0.5333rem;
-  margin-left: 4.5333rem;
-  width: 100%;
-}
-
-#cliente-txt p{
-  margin-left: 4rem;
-  width: 4.6667rem;
-  text-align: end;
-}
-
-#btn-cadastro-cliente{
-  margin-right: 0.8rem;
-}
-
-/* QUADRINHOS */
-#quarto{
-  flex-direction: column;
-}
-
-#cadastre-se, #procure, #negocio{
-  margin: 0.0267rem 0;
-  padding: none;
-  width: 5.52rem;
-}
-
-#cadastre-se p, #procure p,#negocio p{
-  width: 2rem;
-}
-
-#avaliacoes{
-  flex-direction: column;
-  justify-content: center;
-}
-
-#aval-isabela, #aval-lucas, #aval-camila{
-  margin: 0rem 0rem 0.6667rem 1.4667rem;
-  width: 50%;
-}
-
-#aval-isabela{
-  display: none;
-}
-
-#img-teste{
-  width: 100%;
-}
 
 } 
 
