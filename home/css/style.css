@@ -40,7 +40,6 @@ header {
 }
 
 #logo {
-  margin-top: 9px;
   width: 100px;
 }
 
@@ -126,6 +125,27 @@ h6 {
   width: 340px;
   padding-right: 77px;
 }
+
+/*
+#btn-saiba-mais{
+    font-family: 'codecpro';
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 77px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #57E4FF;
+    color: white;
+}
+
+#btn-saiba-mais:hover{
+    opacity: 0.8;
+}
+*/
 
 #btn-saiba-mais {
   margin-left: 77px;
@@ -303,6 +323,7 @@ h6 {
   border: none;
   color: #000000;
   padding: 15px 15px;
+  /* Define o espaçamento interno do botão */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -310,6 +331,7 @@ h6 {
   font-weight: bold;
   font-family: "codecpro";
   margin: 10px 0 0 75px;
+  /* Define o espaçamento externo do botão */
   cursor: pointer;
   border-radius: 5px;
 }
@@ -473,11 +495,17 @@ h6 {
 #diminuir {
   margin-bottom: 10px;
   background-color: #999;
+  /* Cor de fundo */
   color: white;
+  /* Cor do texto */
   font-size: 16px;
+  /* Tamanho da fonte */
   border: none;
+  /* Remover borda */
   padding: 10px 20px;
+  /* Preenchimento interno */
   cursor: pointer;
+  /* Cursor de ponteiro ao passar o mouse */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -508,6 +536,7 @@ h6 {
 
 .wrapper .icon {
   position: relative;
+  /* background: rgba(0, 0, 0, 10); */
   border-radius: 50%;
   padding: 15px;
   margin-top: 10px;
@@ -519,6 +548,7 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -537,6 +567,18 @@ h6 {
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+/* .wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: blue;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */
+
 .wrapper .icon:hover .tooltip {
   top: -45px;
   opacity: 1;
@@ -548,6 +590,14 @@ h6 {
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
+
+
+/* .wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover {
+  background: blue;
+  color: #ffffff;
+} */
 
 #aumentar:hover {
   visibility: visible;
@@ -579,17 +629,17 @@ h6 {
 /* Estilos para telas pequenas */
 @media screen and (max-width: 480px) {
   body {
-    width: 414px;
+    width: 25.875rem;
     overflow-x: hidden;
   }
 
-/* CABECALHO */
+  /* CABECALHO */
   header {
     width: 100%;
     position: relative;
   }
 
-  .primeiro{
+  .primeiro {
     width: 30%;
     margin: 0 auto;
     text-align: center
@@ -606,122 +656,259 @@ h6 {
     margin-top: -7%;
   }
 
-/* PRIMEIRA PARTE */
-  .chamada {
-    margin-left: 260px;
-    text-align: center;
-  }
-
+  /* PRIMEIRA PARTE */
+  .chamada,
   .paragrafo {
-    margin-left: 260px;
+    margin-left: 16.25rem;
     text-align: center;
   }
 
-  #btn-saiba-mais{
-    margin-left: 340px;
+  #btn-saiba-mais {
+    margin-left: 21.25rem;
   }
 
   #personagem {
     visibility: hidden;
   }
 
-  .titulo2{
-    margin: 15px 0px;
-    line-height: 40px;
-    font-size: 35px;
+  .titulo2 {
+    margin: 0.9375rem 0rem;
+    line-height: 2.5rem;
+    font-size: 2.1875rem;
   }
 
   /* GRID */
-  #sup-ger, #consul-trei{
+  #sup-ger,
+  #consul-trei {
     flex-direction: column;
   }
 
-  #suporte, #gerenciamento, #consultoria, #treinamento{
-    width: 325px;
-    margin: 10px 100px 30px 45px;
+  #suporte,
+  #gerenciamento,
+  #consultoria,
+  #treinamento {
+    width: 20.3125rem;
+    margin: 0.625rem 6.25rem 1.875rem 2.8125rem;
   }
 
-  #suporte p, #gerenciamento p, #consultoria p, #treinamento ´p{
-    max-width: 300px;
+  #suporte p,
+  #gerenciamento p,
+  #consultoria p,
+  #treinamento ´p {
+    max-width: 18.75rem;
   }
 
 
   /* CHAMADA FREELANCER */
-  #freelancer-img, #cliente-img {
+  #freelancer-img,
+  #cliente-img {
     visibility: hidden;
   }
 
-  #freelancer-cad{
-    margin-left: -200px;
+  #freelancer-cad {
+    margin-left: -12.5rem;
   }
 
-  #freelancer-txt h6{
-    margin-left: -325px;
-    margin-top: -40px;
+  #freelancer-txt h6 {
+    margin-left: -20.3125rem;
+    margin-top: -2.5rem;
   }
 
-  #freelancer-txt p{
-    margin-left: -325px;
-    max-width: 350px;
+  #freelancer-txt p {
+    margin-left: -20.3125rem;
+    max-width: 21.875rem;
   }
 
-  #btn-cadastro-freelancer{
-    margin-left: -250px;
+  #btn-cadastro-freelancer {
+    margin-left: -15.625rem;
   }
 
   /* CHAMADA CLIENTE */
-  #cliente{
+  #cliente {
     justify-content: center;
   }
 
-  #cliente-txt h6{
-    margin-top: -40px;
-    margin-left: 350px;
-    width: 100%;
+  #cliente-txt h6 {
+    margin-top: -2.5rem;
+    margin-bottom: 20px;
+    margin-left: 340px;
   }
 
-  #cliente-txt p{
-    margin-left: 310px;
-    width: 350px;
+  #cliente-txt p {
+    width: 21.875rem;
     text-align: end;
+    margin-left: 18.75rem;
+    margin-top: -1.25rem;
   }
 
-  #btn-cadastro-cliente{
-
+  #btn-cadastro-cliente {
+    position: relative;
+    z-index: 9999;
+    margin-left: 33.125rem;
   }
 
 
-/* QUADRINHOS */
-  #quarto{
+  /* QUADRINHOS */
+  #quarto {
     flex-direction: column;
   }
 
-  #cadastre-se, #procure, #negocio{
-    margin: 2px 0;
+  #cadastre-se,
+  #procure,
+  #negocio {
+    margin: 0.125rem 0;
     padding: none;
-    width: 414px;
+    width: 25.875rem;
   }
 
-  #cadastre-se p, #procure p,#negocio p{
-    width: 150px;
+  #cadastre-se p,
+  #procure p,
+  #negocio p {
+    width: 9.375rem;
   }
 
-  #avaliacoes{
+  #avaliacoes {
     flex-direction: column;
     justify-content: center;
   }
 
-  #aval-isabela, #aval-lucas, #aval-camila{
-    margin: 0px 0px 50px 110px;
+  #aval-isabela,
+  #aval-lucas,
+  #aval-camila {
+    margin: 0rem 0rem 3.125rem 6.875rem;
     width: 50%;
   }
 
-  #aval-isabela{
+  #aval-isabela {
     display: none;
   }
 
-  #img-teste{
+  #img-teste {
     width: 100%;
   }
+
+/* CHAMADA FREELANCER */
+#freelancer-img, #cliente-img {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 410px) {
+  #logo {
+    position: absolute;
+    left: 36%;
+    margin-top: -7%;
+  }
+
+  .chamada,
+  .paragrafo {
+    margin-left: 15rem;
+    text-align: center;
+  }
+
+  #btn-saiba-mais {
+    margin-left: 20.1875rem;
+  }
+
+  .titulo2 {
+    margin: 0.9375rem 0rem;
+    margin-left: -0.9375rem;
+    line-height: 2.5rem;
+    font-size: 2.1875rem;
+  }
+
+  #suporte,
+  #gerenciamento,
+  #consultoria,
+  #treinamento {
+    width: 19.375rem;
+    margin: 0.625rem 6.25rem 1.875rem 2.5625rem;
+  }
+
+  #cliente-txt h6 {
+    margin-top: -2.5rem;
+    margin-bottom: 1.25rem;
+    margin-left: 21.25rem;
+  }
+
+  #aval-isabela,
+  #aval-lucas,
+  #aval-camila {
+    margin: 0rem 0rem 3.125rem 5.875rem;
+    width: 50%;
+  }
+#freelancer-cad{
+  margin-left: -200px;
+}
+
+#freelancer-txt h6{
+  margin-left: -325px;
+  margin-top: -40px;
+}
+
+#freelancer-txt p{
+  margin-left: -325px;
+  max-width: 350px;
+}
+
+#btn-cadastro-freelancer{
+  margin-left: -250px;
+}
+
+/* CHAMADA CLIENTE */
+#cliente{
+  justify-content: center;
+}
+
+#cliente-txt h6{
+  margin-top: -40px;
+  margin-left: 350px;
+  width: 100%;
+}
+
+#cliente-txt p{
+  margin-left: 310px;
+  width: 350px;
+  text-align: end;
+}
+
+#btn-cadastro-cliente{
+
+}
+
+
+/* QUADRINHOS */
+#quarto{
+  flex-direction: column;
+}
+
+#cadastre-se, #procure, #negocio{
+  margin: 2px 0;
+  padding: none;
+  width: 414px;
+}
+
+#cadastre-se p, #procure p,#negocio p{
+  width: 150px;
+}
+
+#avaliacoes{
+  flex-direction: column;
+  justify-content: center;
+}
+
+#aval-isabela, #aval-lucas, #aval-camila{
+  margin: 0px 0px 50px 110px;
+  width: 50%;
+}
+
+#aval-isabela{
+  display: none;
+}
+
+#img-teste{
+  width: 100%;
+}
+
+} 
 
 }
