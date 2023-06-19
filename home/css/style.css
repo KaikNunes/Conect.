@@ -731,20 +731,20 @@ h6 {
   #cliente-txt h6 {
     margin-top: -2.5rem;
     margin-bottom: 20px;
-    margin-left: 340px;
+    margin-right: 160px;
   }
 
-  #cliente-txt p {
+  #cliente p {
     width: 21.875rem;
     text-align: end;
-    margin-left: 18.75rem;
+    margin-left: -140px;
     margin-top: -1.25rem;
   }
 
   #btn-cadastro-cliente {
     position: relative;
     z-index: 9999;
-    margin-left: 33.125rem;
+    margin-left: 540px;
   }
 
 
@@ -870,11 +870,6 @@ h6 {
   width: 350px;
   text-align: end;
 }
-
-#btn-cadastro-cliente{
-
-}
-
 
 /* QUADRINHOS */
 #quarto{
