@@ -30,13 +30,23 @@ header {
     display: flex;
     flex-direction: row;
     height: 75px;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
 }
 
+main{
+    padding-top: 75px;
+    padding-left: 10%;
+}
+
 #logo{
     width: 100px;
+    margin-left: 200px;
+}
+
+header > ul{
+    margin-right: 200px;
 }
 
 ul{
@@ -56,10 +66,16 @@ ul li a:hover{
     color: rgba(0, 0, 0, 0.7);
 }
 
+.title{
+    margin: 50px 0 10px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .alias {cursor: pointer;}
 
-p{font-size: 24px;color: #ffffff;}
-.quadrado{
+p{font-size: 18px;color: #ffffff;}
+.quadrado-novo{
   width: 200px;
   height:150px;
   display: inline-flex;
@@ -69,10 +85,30 @@ p{font-size: 24px;color: #ffffff;}
   color: #ffffff;
   border-radius: 15px;
   margin: 10px;
-  margin-top: 100px;
   transition: all .3s ease;
+  border-style: dashed;
 }
+
+.quadrado{
+    width: 200px;
+    height:150px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 10px;
+    transition: all .3s ease;
+}
+
+.quadrado:hover{
+    background-color: #999;
+}
+
 .c1{background: #8e44ad;}
+
+
 
 
 .menu-inferior {
@@ -105,6 +141,6 @@ p{font-size: 24px;color: #ffffff;}
 }
 
 .menu-inferior > ul > div > li > a > i, .menu-inferior > ul > div > p{
-    margin: 10px 60px 0 60px;
+    margin: 10px 40px 0 40px;
     color: #d9d9d9;
 }
