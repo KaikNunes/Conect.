@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'codecproextrabold';
+    src: url('./f3298108-1a85-4d0b-8de4-2d9e23b64a74.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'codecpro';
+    src: url('./1c2b3694-9387-4420-8505-ad092fde48c0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'codecpro';
+}
+
+h4 {
+    font-family: 'Fredoka';
+    font-size: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fundo {
+    background-image: linear-gradient(to right, #8c52ff, #0a1a44);
+}
+
+/* -----------------Barra de pesquisa------------------ */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+    width: 100%;
+}
+
+#logo {
+    width: 100px;
+}
+
+/* ------------------------Caixa de Pesquisa */
+.search-box {
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.search-txt {
+    margin-left: 15px;
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.search-box:hover>.search-btn {
+    background: none;
+    transition: 0.5s;
+}
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0A1A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 240px;
+}
+
+/* ---------------fim barra de pesquisa---------------- */
+
+main {
+    margin-top: 14.375rem;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 310px;
+    height: 315px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+p{
+    margin-top: -50px;
+}
+
+button {
+    background: #0A1A44;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "codecpro";
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: center;
+    transition: 0.4s;
+    margin: 0 20px;
+  
+}
