@@ -112,6 +112,17 @@ main {
     background-color: #FAFAFA;
 }
 
+.img{
+    height: 100px;
+
+}
+.desconto{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+
+
 .alinhamento{
     display: table;
     /* flex-direction: row; */
