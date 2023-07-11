@@ -113,19 +113,20 @@ main {
 }
 
 .alinhamento{
-    display: flex;
-    flex-direction: row;
+    display: table;
+    /* flex-direction: row; */
+    text-align: center;
+    margin-left: 17px;
     
-    justify-content: space-evenly;
 }
 .parcela{
-     display: table-cell;
+   display: table-cell
+    
 }
 h4 {
     font-family: 'Fredoka';
-    font-size: 60px;
+    font-size: 85px;
     color: rgb(42, 139, 250);
-    display: table-cell
 }
 p{
     font-family: 'Fredoka';
@@ -150,5 +151,93 @@ button {
     text-align: center;
     transition: 0.4s;
     margin: 0 20px;
-  
-}
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    }
+    button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    z-index: -2;
+    }
+    button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #4e65a0;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+    }
+    button:hover {
+    color: #fff;
+    }
+    button:hover:before {
+    width: 100%;
+    }
+    button:active {
+        transform: scale(0.95);
+        /* transform: translateY(-1px); */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+      /* ---------------finalizado--------- */
+      .container {
+        width: 120px;
+        height: 300px;
+        margin: 0 auto;
+      }
+      
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+      
+      path {
+        stroke-dasharray: 99.47578430175781;
+        stroke-dashoffset: -99.47578430175781;
+        fill: transparent;
+      }
+      
+      svg.animate path {
+        animation: 1.7s ease forwards draw;
+        opacity:1;
+      }
+      
+      @keyframes draw {
+        0% {
+          opacity: 1;
+          stroke-dashoffset: -99.47578430175781;
+          fill: transparent;
+          transform: translateY(0);
+        }
+        
+        35% {
+          stroke-dashoffset: 0;
+          fill: transparent;
+        }
+        
+        60% {
+          fill: #3da35a;
+          opacity: 1;
+          transform: translateY(0);
+        }
+        
+        100% {
+          fill: #3da35a;
+          stroke-dashoffset: 0;
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+      }
