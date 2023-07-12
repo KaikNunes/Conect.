@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="../home/img/letra-c.png" type="image/x-icon">
     <title>Conect. | Home</title>
@@ -25,9 +26,9 @@
             <p><i class="fa-solid fa-plus fa-2x"></i></p>
             <p class="">Novo Projeto</p>
         </div>
-        <div class="quadrado c1 alias">
+        <div class="quadrado c1 alias" onclick="openModal()">
             <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
-            <p class="">Computador não liga</p>
+            <p class="" >Computador não liga</p>
         </div>
     </main>
 
@@ -44,7 +45,7 @@
             </div>
     
             <div>
-                <li><a href=""><i class="fa-solid fa-sack-dollar fa-2x"></i></a></li>
+                <li><a href="https://jobs-calc-one.vercel.app/" target="_blank"><i class="fa-solid fa-sack-dollar fa-2x"></i></a></li>
                 <p>Finanças</p>
             </div>
         </ul>
@@ -77,5 +78,24 @@
   Please ensure Javascript is enabled for purposes of 
   <a href="https://userway.org">website accessibility</a>
   </noscript>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="conteudo">
+        <h2>Computador não liga</h2>
+        <p>
+            Quando eu ligo o computador, ele emite uma série de bips estranhos. Isso acontece logo após pressionar o botão de ligar, antes mesmo de qualquer imagem aparecer na tela. Eu fiz algumas pesquisas e descobri que esses bips podem indicar problemas de hardware.
+            <br>
+            Então, estou procurando alguém com conhecimentos técnicos e experiência para me ajudar a diagnosticar e resolver esse problema. Se você é um freelancer confiável na área de assistência técnica, gostaria de contar com sua ajuda nessa situação.
+        </p>
+        <img id="project-image" src="./img/computador-desligado.jpg" alt="" >
+        <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
+    </div>
+    </div>
+  </div>
+  
+  <div id="overlay"></div>
+  <script src="./js/script.js"></script>
 </body>
 </html>
