@@ -38,7 +38,7 @@
 
 }
 
-.modal-content img{
+.modal-content img {
     width: 200px;
 }
 
@@ -46,9 +46,9 @@
     max-width: 100%;
     height: auto;
     cursor: pointer;
-  }
-  
-  #project-image.expanded {
+}
+
+#project-image.expanded {
     width: 500px;
     object-fit: contain;
     position: fixed;
@@ -56,20 +56,20 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-.conteudo{
+.conteudo {
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.conteudo p{
+.conteudo p {
     text-align: justify;
 }
 
-.conteudo button{
+.conteudo button {
     width: 100px;
 }
 
@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-#overlay{
+#overlay {
     display: none;
     position: fixed;
     z-index: 998;
@@ -92,7 +92,7 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#overlay2{
+#overlay2 {
     display: none;
     position: fixed;
     z-index: 998;
@@ -103,7 +103,7 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#modal p{
+#modal p {
     color: #999;
 }
 
