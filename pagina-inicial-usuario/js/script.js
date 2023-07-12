@@ -10,8 +10,14 @@ function closeModal() {
 
 
 var projectImage = document.getElementById("project-image");
+var overlay = document.getElementById("overlay2");
 
 projectImage.onclick = function () {
-    projectImage.classList.toggle("expanded");
-    document.getElementById("overlay2").style.display = "block";
+    if (projectImage.classList.contains("expanded")) {
+        projectImage.classList.remove("expanded");
+        overlay.style.display = "none";
+    } else {
+        projectImage.classList.add("expanded");
+        overlay.style.display = "block";
+    }
 };
