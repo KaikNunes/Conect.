@@ -38,6 +38,11 @@
             <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
             <p class="">Computador não liga</p>
         </div>
+
+        <div class="quadrado c1 alias" onclick="openModal2()">
+            <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
+            <p class="">Upgrade</p>
+        </div>
     </main>
 
     <section class="menu-inferior">
@@ -93,7 +98,7 @@
             <span class="close" onclick="closeModal()">&times;</span>
             <div class="conteudo">
                 <h2>Computador não liga</h2>
-                <p>
+                <p class="descricao-modal">
                     Quando eu ligo o computador, ele emite uma série de bips estranhos. Isso acontece logo após
                     pressionar o botão de ligar, antes mesmo de qualquer imagem aparecer na tela. Eu fiz algumas
                     pesquisas e descobri que esses bips podem indicar problemas de hardware.
@@ -104,6 +109,23 @@
                 </p>
                 <img id="project-image" src="./img/computador-desligado.jpg" alt="">
                 <div id="overlay2"></div>
+                <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal2()">&times;</span>
+            <div class="conteudo">
+                <h2>Upgrade</h2>
+                <p class="descricao-modal">
+                    Estou buscando um freelancer qualificado para me ajudar a analisar o meu computador atual e fornecer recomendações sobre possíveis melhorias e upgrades.
+                    <br>
+                    Meu objetivo é otimizar o desempenho do meu computador, garantindo que ele possa lidar com tarefas exigentes, como edição de vídeos, jogos de última geração ou qualquer outro uso intensivo de recursos.
+                </p>
+                <img id="project-image2" src="./img/pc-xuxa.jfif" alt="">
+                <div id="overlay3"></div>
                 <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
             </div>
         </div>
