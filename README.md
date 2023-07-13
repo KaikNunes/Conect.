@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Senac_logo.svg/2560px-Senac_logo.svg.png" width="50px">
 
->Conect.
+> Status: Developing... 🚧
 
 A plataforma Conect surge como resposta a demanda crescente por soluções
 tecnológicas eficientes e personalizadas. Diferentemente de outras plataformas de

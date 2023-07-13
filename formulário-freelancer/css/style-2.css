@@ -50,49 +50,38 @@ body{
 }
 
 .input{
-    width: 260px;
-    margin-bottom: 40px;
-    height: 30px;
-    font-family: 'codecpro';
-    font-size: 15px;
-    background-color: #8C52FF;
-    color: white;
-    border-radius: 10px;
-    border-color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 
 ::placeholder{
-    color: #fff;
+    color: gray;
 }
 
 .select{
-    width: 269px;
-    margin-bottom: 40px;
-    height: 30px;
-    background-color: #8C52FF;
-    color: white;
-    border-radius: 10px;
-    border-color: #fff;
-    font-family: 'codecpro';
-    font-size: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: gray;
 }
 
 option{
     background-color: #fff;
-    color: black;
+    color: gray;
 }
 
-
-
 .resumo{
-    width: 266px;
-    background-color: #8C52FF;
-    color: white;
-    border-radius: 10px;
-    border-color: #fff;
-    font-family: 'codecpro';
-    font-size: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 #botao{
