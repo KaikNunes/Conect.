@@ -19,6 +19,10 @@
     font-family: 'codecpro';
 }
 
+body{
+    background-color: #000;
+}
+
 #modal {
     display: none;
     position: fixed;
@@ -142,6 +146,7 @@
     color: #999;
 }
 
+/* ------------------------ */
 
 body {
     background-color: #0a1a44;
