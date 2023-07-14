@@ -23,7 +23,16 @@ body{
     background-color: #000;
 }
 
-#modal {
+#modal-projeto{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#modal{
     display: none;
     position: fixed;
     z-index: 999;
@@ -144,6 +153,19 @@ body{
 
 .descricao-modal {
     color: #999;
+}
+
+#titulo-projeto{
+    border-style: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#descricao-projeto{
+    border-style: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    resize: none;
 }
 
 /* ------------------------ */

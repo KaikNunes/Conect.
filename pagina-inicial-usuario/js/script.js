@@ -1,3 +1,14 @@
+function openProject() {
+    document.getElementById("modal-projeto").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closeProject() {
+    document.getElementById("modal-projeto").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+
 function openModal() {
     document.getElementById("modal").style.display = "block";
     document.getElementById("overlay").style.display = "block";
@@ -19,6 +30,11 @@ function closeModal2() {
     document.getElementById("overlay").style.display = "none";
 }
 
+function openFileExplorer() {
+    var fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.click();
+}
 
 var projectImage = document.getElementById("project-image");
 var overlay = document.getElementById("overlay2");

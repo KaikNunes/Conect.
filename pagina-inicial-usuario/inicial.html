@@ -29,7 +29,7 @@
     <main>
         <p class="title">Meus Projetos</p>
 
-        <div class="quadrado-novo alias">
+        <div class="quadrado-novo alias" onclick="openProject()">
             <p><i class="fa-solid fa-plus fa-2x"></i></p>
             <p class="">Novo Projeto</p>
         </div>
@@ -92,6 +92,18 @@
         Please ensure Javascript is enabled for purposes of
         <a href="https://userway.org">website accessibility</a>
     </noscript>
+
+    <div id="modal-projeto" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProject()">&times;</span>
+            <div class="conteudo">
+                <input type="text" rows="10" placeholder="Título" id="titulo-projeto">
+                <textarea rows="10" placeholder="Descrição" id="descricao-projeto"></textarea>
+                <button onclick="openFileExplorer()"><i class="fa-solid fa-paperclip"></i>Anexos</button>
+                <div id="overlay2"></div>
+            </div>
+        </div>
+    </div>
 
     <div id="modal" class="modal">
         <div class="modal-content">
