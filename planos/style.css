@@ -252,3 +252,60 @@ button {
           transform: translateY(-10px);
         }
       }
+    
+      @media screen and (max-width:767px) {
+        .search-box{
+            display: none;
+        }
+
+        main {
+            margin-top: 4.375rem;
+            display: grid;
+            grid-template-columns: 310px ;
+            gap: 100px;
+            justify-content: center;
+        }
+
+        .planos {
+            width: 250px;
+            height: 255px;
+            border-radius: 30px;
+        }
+        
+        .img{
+            height: 80px;
+        
+        }
+        .desconto{
+            position: absolute;
+            width: 500px;
+            height: 330px;
+        }
+        
+        
+        .alinhamento{
+            display: table;
+            /* flex-direction: row; */
+            text-align: center;
+            margin-left: 15px;
+            
+        }
+        .parcela{
+           display: table-cell
+            
+        }
+        h4 {
+            font-family: 'Fredoka';
+            font-size: 55px;
+            color: rgb(42, 139, 250);
+            margin-left: -20px;
+        }
+        p{
+            font-family: 'Fredoka';
+            font-size: 30px;
+            display: flex;
+            margin-left: 20px;
+            margin-top: -30px;
+            color: rgba(0, 0, 0, 0.658);
+        }
+      }
