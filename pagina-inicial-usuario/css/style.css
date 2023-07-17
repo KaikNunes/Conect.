@@ -19,11 +19,11 @@
     font-family: 'codecpro';
 }
 
-body{
+body {
     background-color: #000;
 }
-
-#modal-projeto{
+  
+#modal-projeto {
     display: none;
     position: fixed;
     z-index: 999;
@@ -32,7 +32,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-#modal{
+#modal {
     display: none;
     position: fixed;
     z-index: 999;
@@ -155,13 +155,13 @@ body{
     color: #999;
 }
 
-#titulo-projeto{
+#titulo-projeto {
     border-style: none;
     border: 1px solid #999;
     border-radius: 5px;
 }
 
-#descricao-projeto{
+#descricao-projeto {
     border-style: none;
     border: 1px solid #999;
     border-radius: 5px;
