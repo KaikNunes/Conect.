@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<div class="login-content">
-			<form action="index.html">
+			<form>
 				<img src="img/conect-logo-white.png">
 				<h2 class="title">Cadastre-se</h2>
            		<div class="input-div one">
@@ -21,7 +21,7 @@
            		   </div>
            		   <div class="div">
            		   		<h5>E-mail</h5>
-           		   		<input type="email" class="input">
+           		   		<input type="email" class="input" id="email">
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -30,13 +30,11 @@
            		   </div>
            		   <div class="div">
            		    	<h5>Senha</h5>
-           		    	<input type="password" class="input">
+           		    	<input type="password" class="input" id="password">
             	   </div>
             	</div>
             	<a href="../home/home.html" class="forget">Esqueci minha senha</a>
-				<button class="btn">
-					<a href="./formulario-freelancer-2.html" class="go">Vamos Nessa!</a>
-				</button>
+				<button class="btn" onclick="login(event)">Vamos Nessa!</button>
             </form>
         </div>
     </div>
@@ -63,12 +61,33 @@
            s.setAttribute("src", "https://cdn.userway.org/widget.js");
            (d.body || d.head).appendChild(s);})(document)
    </script>
-  <noscript>
-  Please ensure Javascript is enabled for purposes of 
-  <a href="https://userway.org">website accessibility</a>
-  </noscript>
+
     <script type="text/javascript" src="js/main.js"></script>
 
+	<script src="../firebase.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+
+            apiKey: "AIzaSyC-iHTBV2-v9cu0h28biOe4A4KmqtaqGBE",
+
+            authDomain: "conect-conectada.firebaseapp.com",
+
+            projectId: "conect-conectada",
+
+            storageBucket: "conect-conectada.appspot.com",
+
+            messagingSenderId: "17760021067",
+
+            appId: "1:17760021067:web:08d70d014b9c101c157bce"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+
+    </script>
 	
 </body>
 </html>
