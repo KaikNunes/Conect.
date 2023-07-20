@@ -10,7 +10,7 @@ function login(event) {
 
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then(response => {
-            window.location.href = "../pagina-inicial-usuario/inicial.html";
+            window.location.href = "../../pagina-inicial-freelancer/inicial.html";
         })
         .catch(error => {
             alert('Usuário não encontrado');

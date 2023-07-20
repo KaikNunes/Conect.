@@ -1,94 +1,101 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Conect. | Cadastro Freelancer</title>
-	<link rel="icon" href="./img/letra-c.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conect. | Cadastro</title>
+    <link rel="icon" href="./img/letra-c.png">
 </head>
+
 <body>
-	<div class="container">
-		<div class="login-content">
-			<form>
-				<img src="img/conect-logo-white.png">
-				<h2 class="title">Login</h2>
-           		<div class="input-div one">
-           		   <div class="i">
-           		   		<i class="fas fa-user"></i>
-           		   </div>
-           		   <div class="div">
-           		   		<h5>E-mail</h5>
-           		   		<input type="email" class="input" id="email">
-           		   </div>
-           		</div>
-           		<div class="input-div pass">
-           		   <div class="i"> 
-           		    	<i class="fas fa-lock"></i>
-           		   </div>
-           		   <div class="div">
-           		    	<h5>Senha</h5>
-           		    	<input type="password" class="input" id="password">
-            	   </div>
-            	</div>
-            	<a href="../home/home.html" class="forget">Esqueci minha senha</a>
-				<button class="btn" onclick="login(event)">Vamos Nessa!</button>
-                <a href="../cadastro/cadastro-freelancer/cadastro-freelancer.html" class="center">É novo por aqui? <span>Cadastre-se</span></a>
+    <div class="container">
+        <div class="login-content">
+            <form>
+                <img src="img/conect-logo-white.png">
+                <h2 class="title">Login</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>E-mail</h5>
+                        <input type="email" class="input" id="email">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Senha</h5>
+                        <input type="password" class="input" id="password">
+                    </div>
+                </div>
+                <a href="../home/home.html" class="forget">Esqueci minha senha</a>
+                <button class="btn" onclick="login(event)">Vamos Nessa!</button>
+                <a href="../../cadastro/cadastro-comum/cadastro-comum.html" class="center">É novo por aqui?
+                    <span>Cadastre-se</span></a>
             </form>
         </div>
     </div>
-	<script>
-        (function(d){
-           var s = d.createElement("script");
-           /* uncomment the following line to override default position*/
-		   s.setAttribute("data-position", 2);
-           /* uncomment the following line to override default size (values: small, large)*/
-           /* s.setAttribute("data-size", "large");*/
-           /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
-           /* s.setAttribute("data-language", "null");*/
-           /* uncomment the following line to override color set via widget (e.g., #053f67)*/
-           /* s.setAttribute("data-color", "#2d68ff");*/
-           /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
-           /* s.setAttribute("data-type", "1");*/
-           /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
-           /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
-           /* uncomment the following line to override support on mobile devices*/
-           /* s.setAttribute("data-mobile", true);*/
-           /* uncomment the following line to set custom trigger action for accessibility menu*/
-           /* s.setAttribute("data-trigger", "triggerId")*/
-           s.setAttribute("data-account", "GCdZkP2fQf");
-           s.setAttribute("src", "https://cdn.userway.org/widget.js");
-           (d.body || d.head).appendChild(s);})(document)
-   </script>
+    <script>
+        (function (d) {
+            var s = d.createElement("script");
+            /* uncomment the following line to override default position*/
+            s.setAttribute("data-position", 2);
+            /* uncomment the following line to override default size (values: small, large)*/
+            /* s.setAttribute("data-size", "large");*/
+            /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+            /* s.setAttribute("data-language", "null");*/
+            /* uncomment the following line to override color set via widget (e.g., #053f67)*/
+            /* s.setAttribute("data-color", "#2d68ff");*/
+            /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+            /* s.setAttribute("data-type", "1");*/
+            /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
+            /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
+            /* uncomment the following line to override support on mobile devices*/
+            /* s.setAttribute("data-mobile", true);*/
+            /* uncomment the following line to set custom trigger action for accessibility menu*/
+            /* s.setAttribute("data-trigger", "triggerId")*/
+            s.setAttribute("data-account", "GCdZkP2fQf");
+            s.setAttribute("src", "https://cdn.userway.org/widget.js");
+            (d.body || d.head).appendChild(s);
+        })(document)
+    </script>
 
     <script type="text/javascript" src="js/main.js"></script>
 
-	<script src="../firebase.js"></script>
+    <script src="../../firebase2.js"></script>
 
-	<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
     <script>
         const firebaseConfig = {
 
-            apiKey: "AIzaSyC-iHTBV2-v9cu0h28biOe4A4KmqtaqGBE",
+            apiKey: "AIzaSyCrBAOM66WtfTFmUXuVz4LSIIo8giUg00o",
 
-            authDomain: "conect-conectada.firebaseapp.com",
+            authDomain: "conect-usuario-comum.firebaseapp.com",
 
-            projectId: "conect-conectada",
+            projectId: "conect-usuario-comum",
 
-            storageBucket: "conect-conectada.appspot.com",
+            storageBucket: "conect-usuario-comum.appspot.com",
 
-            messagingSenderId: "17760021067",
+            messagingSenderId: "509943576268",
 
-            appId: "1:17760021067:web:08d70d014b9c101c157bce"
+            appId: "1:509943576268:web:7a871f6a052cc3cc99f469"
+
         };
+
 
         firebase.initializeApp(firebaseConfig);
 
 
     </script>
-	
+
 </body>
+
 </html>
