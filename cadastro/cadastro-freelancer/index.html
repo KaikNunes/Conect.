@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -8,44 +9,48 @@
 	<title>Conect. | Cadastro Freelancer</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width" />
 
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Paper Bootstrap Wizard by Creative Tim">
-    <meta itemprop="description" content="Paper Bootstrap Wizard is a fully responsive wizard that is inspired by our famous Paper Kit  and comes with 3 useful examples and 5 colors.">
-    <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/49/opt_pbw_thumbnail.jpg">
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="Paper Bootstrap Wizard by Creative Tim">
+	<meta itemprop="description"
+		content="Paper Bootstrap Wizard is a fully responsive wizard that is inspired by our famous Paper Kit  and comes with 3 useful examples and 5 colors.">
+	<meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/49/opt_pbw_thumbnail.jpg">
 
 	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/paper-bootstrap-wizard.css" rel="stylesheet" />
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
 
 	<!-- Fonts and Icons -->
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 	<link href="assets/css/themify-icons.css" rel="stylesheet">
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');</script>
 	<!-- End Google Tag Manager -->
-	</head>
+</head>
 
-	<body>
-		<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<div class="image-container set-full-height" style="background-image: linear-gradient(to right, #8c52ff, #0a1a44)">
 		<div class="centralizar">
 			<img src="./assets/img/conect-logo-white.png" alt="" id="logo-conect">
 		</div>
-	    <!--   Creative Tim Branding   -->
-	    <!-- <a href="https://creative-tim.com">
+		<!--   Creative Tim Branding   -->
+		<!-- <a href="https://creative-tim.com">
 	         <div class="logo-container">
 	            <div class="logo">
 	                <img src="assets/img/new_logo.png">
@@ -62,29 +67,30 @@
 			<div class="made-with">Made with <strong>Paper Kit</strong></div>
 		</a> -->
 
-	    <!--   Big container   -->
-	    <div class="container">
-	        <div class="row">
-		        <div class="col-sm-8 col-sm-offset-2">
+		<!--   Big container   -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
 
-		            <!--      Wizard container        -->
-		            <div class="wizard-container">
+					<!--      Wizard container        -->
+					<div class="wizard-container">
 
-		                <div class="card wizard-card" data-color="orange" id="wizardProfile">
-		                    <form action="" method="">
-		                <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
+						<div class="card wizard-card" data-color="orange" id="wizardProfile">
+							<form action="" method="" id="signup-form">
+								<!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
 
-		                    	<div class="wizard-header text-center">
-		                        	<h3 class="wizard-title">Cadastre-se</h3>
+								<div class="wizard-header text-center">
+									<h3 class="wizard-title">Cadastre-se</h3>
 									<p class="category">Nos diga um pouco mais sobre você</p>
-		                    	</div>
+								</div>
 
 								<div class="wizard-navigation">
 									<div class="progress-with-circle">
-									     <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3" style="width: 21%;"></div>
+										<div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1"
+											aria-valuemax="3" style="width: 21%;"></div>
 									</div>
 									<ul>
-			                            <li>
+										<li>
 											<a href="#about" data-toggle="tab">
 												<div class="icon-circle">
 													<i class="ti-user"></i>
@@ -92,7 +98,7 @@
 												Sobre
 											</a>
 										</li>
-			                            <li>
+										<li>
 											<a href="#account" data-toggle="tab">
 												<div class="icon-circle">
 													<i class="ti-settings"></i>
@@ -100,7 +106,7 @@
 												Habilidades
 											</a>
 										</li>
-			                            <li>
+										<li>
 											<a href="#address" data-toggle="tab">
 												<div class="icon-circle">
 													<i class="ti-map"></i>
@@ -108,16 +114,17 @@
 												Endereço
 											</a>
 										</li>
-			                        </ul>
+									</ul>
 								</div>
-		                        <div class="tab-content">
-		                            <div class="tab-pane" id="about">
-		                            	<div class="row">
+								<div class="tab-content">
+									<div class="tab-pane" id="about">
+										<div class="row">
 											<h5 class="info-text"></h5>
 											<div class="col-sm-4 col-sm-offset-1">
 												<div class="picture-container">
 													<div class="picture">
-														<img src="assets/img/default-avatar.jpg" class="picture-src" id="wizardPicturePreview" title="" />
+														<img src="assets/img/default-avatar.jpg" class="picture-src"
+															id="wizardPicturePreview" title="" />
 														<input type="file" id="wizard-picture">
 													</div>
 													<h6>Foto de Perfil</h6>
@@ -126,124 +133,128 @@
 											<div class="col-sm-6">
 												<div class="form-group">
 													<label>Nome <small>*</small></label>
-													<input name="firstname" type="text" class="form-control" placeholder="Kaik...">
+													<input name="firstname" type="text" class="form-control"
+														placeholder="Kaik...">
 												</div>
 												<div class="form-group">
 													<label>Sobrenome <small>*</small></label>
-													<input name="lastname" type="text" class="form-control" placeholder="Nunes...">
+													<input name="lastname" type="text" class="form-control"
+														placeholder="Nunes...">
 												</div>
 											</div>
 											<div class="col-sm-10 col-sm-offset-1">
 												<div class="form-group">
 													<label>E-mail <small>*</small></label>
-													<input name="email" type="email" class="form-control" placeholder="kaik@conect.solution">
+													<input name="email" type="email" id="email" class="form-control"
+														placeholder="kaik@conect.solution">
 												</div>
 											</div>
 											<div class="col-sm-10 col-sm-offset-1">
 												<div class="form-group">
 													<label>Senha <small>*</small></label>
-													<input name="email" type="password" class="form-control" placeholder="********">
+													<input name="password" type="password" id="password"
+														class="form-control" placeholder="********">
 												</div>
 											</div>
 										</div>
-		                            </div>
-		                            <div class="tab-pane" id="account">
-		                                <h5 class="info-text">Selecione sua(s) área(s) de atuação:</h5>
-		                                <div class="row">
-		                                    <div class="col-sm-8 col-sm-offset-2">
-		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-split-v-alt"></i>
+									</div>
+									<div class="tab-pane" id="account">
+										<h5 class="info-text">Selecione sua(s) área(s) de atuação:</h5>
+										<div class="row">
+											<div class="col-sm-8 col-sm-offset-2">
+												<div class="col-sm-4">
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-split-v-alt"></i>
 															<p>Programação</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
+														</div>
+													</div>
+												</div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-hummer"></i>
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-hummer"></i>
 															<p>Suporte</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
+														</div>
+													</div>
+												</div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class=" ti-harddrives"></i>
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class=" ti-harddrives"></i>
 															<p>Geren. de Sistema</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
+														</div>
+													</div>
+												</div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-world"></i>
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-world"></i>
 															<p>Redes</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
+														</div>
+													</div>
+												</div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-stats-up"></i>
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-stats-up"></i>
 															<p>Consultoria</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
+														</div>
+													</div>
+												</div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Design">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-lock"></i>
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Design">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-lock"></i>
 															<p>Seg. da Informa.</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
-		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-checkbox">
-		                                                <input type="checkbox" name="jobb" value="Code">
-		                                                <div class="card card-checkboxes card-hover-effect">
-		                                                    <i class="ti-blackboard"></i>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="choice" data-toggle="wizard-checkbox">
+														<input type="checkbox" name="jobb" value="Code">
+														<div class="card card-checkboxes card-hover-effect">
+															<i class="ti-blackboard"></i>
 															<p>Treinamento</p>
-		                                                </div>
-		                                            </div>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                            <div class="tab-pane" id="address">
-		                                <div class="row">
-		                                    <div class="col-sm-12">
-		                                        <h5 class="info-text"></h5>
-		                                    </div>
-		                                    <div class="col-sm-7 col-sm-offset-1">
-		                                    	<div class="form-group">
-		                                            <label>Endereço</label>
-		                                            <input type="text" class="form-control" placeholder="Rua Igaraçu">
-		                                        </div>
-		                                    </div>
-		                                    <div class="col-sm-3">
-		                                        <div class="form-group">
-		                                            <label>Número</label>
-		                                            <input type="text" class="form-control" placeholder="198">
-		                                        </div>
-		                                    </div>
-		                                    <div class="col-sm-5 col-sm-offset-1">
-		                                        <div class="form-group">
-		                                            <label>Cidade</label>
-		                                            <input type="text" class="form-control" placeholder="Contagem...">
-		                                        </div>
-		                                    </div>
-		                                    <div class="col-sm-5">
-		                                        <div class="form-group">
-		                                            <label>Estado</label><br>
-		                                            <select name="country" class="form-control">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane" id="address">
+										<div class="row">
+											<div class="col-sm-12">
+												<h5 class="info-text"></h5>
+											</div>
+											<div class="col-sm-7 col-sm-offset-1">
+												<div class="form-group">
+													<label>Endereço</label>
+													<input type="text" class="form-control" placeholder="Rua Igaraçu">
+												</div>
+											</div>
+											<div class="col-sm-3">
+												<div class="form-group">
+													<label>Número</label>
+													<input type="text" class="form-control" placeholder="198">
+												</div>
+											</div>
+											<div class="col-sm-5 col-sm-offset-1">
+												<div class="form-group">
+													<label>Cidade</label>
+													<input type="text" class="form-control" placeholder="Contagem...">
+												</div>
+											</div>
+											<div class="col-sm-5">
+												<div class="form-group">
+													<label>Estado</label><br>
+													<select name="country" class="form-control">
 														<option value="">Selecione...</option>
 														<option value="AC">Acre</option>
 														<option value="AL">Alagoas</option>
@@ -272,31 +283,34 @@
 														<option value="SP">São Paulo</option>
 														<option value="SE">Sergipe</option>
 														<option value="TO">Tocantins</option>
-		                                            </select>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="wizard-footer">
-		                            <div class="pull-right">
-		                                <input type='button' class='btn btn-next btn- btn-warning btn-wd' name='next' value='Próximo' />
-		                                <input type='button' class='btn btn-finish btn-fill btn-warning btn-wd' name='finish' value='Vamos Nessa!' />
-		                            </div>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wizard-footer">
+									<div class="pull-right">
+										<input onclick="createUserWithEmailAndPassword()" type='button'
+											class='btn btn-next btn- btn-warning btn-wd' name='next' value='Próximo' />
+										<input type='button' class='btn btn-finish btn-fill btn-warning btn-wd'
+											name='finish' value='Vamos Nessa!' />
+									</div>
 
-		                            <div class="pull-left">
-		                                <input type='button' class='btn btn-previous btn-default btn-wd' name='previous' value='Anterior' />
-		                            </div>
-		                            <div class="clearfix"></div>
-		                        </div>
-		                    </form>
-		                </div>
-		            </div> <!-- wizard container -->
-		        </div>
-	    	</div><!-- end row -->
+									<div class="pull-left">
+										<input type='button' class='btn btn-previous btn-default btn-wd' name='previous'
+											value='Anterior' />
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</form>
+						</div>
+					</div> <!-- wizard container -->
+				</div>
+			</div><!-- end row -->
 		</div> <!--  big container -->
 
-	    <!-- <div class="footer">
+		<!-- <div class="footer">
 	        <div class="container text-center">
 	            Made with <i class="fa fa-heart heart"></i> by <a href="https://www.creative-tim.com">Creative Tim</a>. Free download <a href="https://www.creative-tim.com/product/paper-bootstrap-wizard">here.</a>
 	        </div>
@@ -357,16 +371,69 @@
 
 </body>
 
-	<!--   Core JS Files   -->
-	<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
 
-	<!--  Plugin for the Wizard -->
-	<script src="assets/js/demo.js" type="text/javascript"></script>
-	<script src="assets/js/paper-bootstrap-wizard.js" type="text/javascript"></script>
+<!--  Plugin for the Wizard -->
+<script src="assets/js/demo.js" type="text/javascript"></script>
+<script src="assets/js/paper-bootstrap-wizard.js" type="text/javascript"></script>
 
-	<!--  More information about jquery.validate here: https://jqueryvalidation.org/	 -->
-	<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<!--  More information about jquery.validate here: https://jqueryvalidation.org/	 -->
+<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
+<script>
+	const firebaseConfig = {
+
+		apiKey: "AIzaSyC-iHTBV2-v9cu0h28biOe4A4KmqtaqGBE",
+
+		authDomain: "conect-conectada.firebaseapp.com",
+
+		projectId: "conect-conectada",
+
+		storageBucket: "conect-conectada.appspot.com",
+
+		messagingSenderId: "17760021067",
+
+		appId: "1:17760021067:web:08d70d014b9c101c157bce"
+	};
+
+	firebase.initializeApp(firebaseConfig);
+
+// Função para criar o usuário com e-mail e senha no Firebase Authentication
+function createUserWithEmailAndPassword() {
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+
+    // Chame a função createUserWithEmailAndPassword do Firebase
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+      .then(function(userCredential) {
+        // Usuário criado com sucesso
+        var user = userCredential.user;
+        console.log('Usuário criado:', user);
+      })
+      .catch(function(error) {
+        // Ocorreu um erro ao criar o usuário
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.error('Erro ao criar usuário:', errorCode, errorMessage);
+        alert('Erro ao criar usuário. Verifique os dados informados');
+      });
+  }
+
+  // Aguarde o carregamento completo do DOM antes de executar o código do Firebase
+  document.addEventListener('DOMContentLoaded', function() {
+    // Trate o envio do formulário
+    document.getElementById('signup-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Evita o envio tradicional do formulário
+      createUserWithEmailAndPassword();
+    });
+  });
+
+</script>
+<script src="./assets/js/firebase.js"></script>
 
 </html>
