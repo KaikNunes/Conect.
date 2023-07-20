@@ -143,6 +143,26 @@ form{
 	color: #8C52FF;
 }
 
+.center{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #999;
+	font-size: 17px;
+	transition: .3s;
+}
+
+span{
+	text-decoration: underline;
+	color: #d4d4d4;
+	font-size: 16px;
+}
+
+span:hover{
+	color: #8C52FF;
+	transition: .3s;
+}
+
 .go{
 	display: block;
 	text-decoration: none;
