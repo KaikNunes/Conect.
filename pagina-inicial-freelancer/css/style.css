@@ -203,10 +203,8 @@ header>ul {
 ul {
     display: flex;
     flex-direction: row;
-}
-
-ul li:nth-child(2) {
-    margin: 0 20px;
+    align-items: center;
+    gap: 20px;
 }
 
 ul li a {
@@ -216,7 +214,25 @@ ul li a {
 ul li a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
-
+#seja-pro {
+    color: #ffff;
+    background-color: #8c52ff;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'codecpro';
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #seja-pro:hover {
+    background-color: #0a1a44;
+    color: white;
+    transition: 0.4s;
+  }
+  
+  #seja-pro:active {
+    transform: scale(0.97);
+  }
 .title {
     margin: 50px 0 10px 10px;
     font-size: 25px;
