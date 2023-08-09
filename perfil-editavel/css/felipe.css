@@ -101,6 +101,22 @@ header{
   line-height: 40px;
   width: 240px;
 }
+#seja-pro {
+  color: #ffff;
+  background-color: #8c52ff;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+#seja-pro:hover {
+  background-color: #0a1a44;
+  color: white;
+  transition: 0.4s;
+}
+
+#seja-pro:active {
+  transform: scale(0.97);
+}
 
 #banner img {
   width: 100%;
