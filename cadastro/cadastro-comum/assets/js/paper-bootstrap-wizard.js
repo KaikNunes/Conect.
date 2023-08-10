@@ -54,7 +54,19 @@ transparent = true;
         		    },
         		    email: {
         		      required: true
-        		    }
+        		    },
+                    password: {
+                        required: true
+                    },
+                    endereco: {
+                        required: true
+                    },
+                    numero: {
+                        required: true
+                    },
+                    cidade: {
+                        required: true
+                    }
                 },
         	});
 
