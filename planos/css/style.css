@@ -18,6 +18,10 @@
     font-family: 'codecpro';
 }
 
+a{
+
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -157,8 +161,7 @@ button {
     font-family: "codecpro";
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding: 16px 60px;
     text-align: center;
     transition: 0.4s;
     margin: 0 20px;
@@ -169,7 +172,7 @@ button {
     overflow: hidden;
     z-index: 1;
     }
-    button:after {
+button:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -178,8 +181,8 @@ button {
     height: 100%;
     border-radius: 10rem;
     z-index: -2;
-    }
-    button:before {
+}
+button:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -191,24 +194,24 @@ button {
     border-radius: 10rem;
     z-index: -1;
     }
-    button:hover {
+button:hover {
     color: #fff;
-    }
-    button:hover:before {
+}
+button:hover:before {
     width: 100%;
-    }
-    button:active {
+}
+button:active {
         transform: scale(0.95);
         /* transform: translateY(-1px); */
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    }
+}
 
       /* ---------------finalizado--------- */
-      .container {
-        width: 120px;
-        height: 300px;
-        margin: 0 auto;
-      }
+.container {
+    width: 120px;
+    height: 300px;
+    margin: 0 auto;
+}
       
       svg {
         width: 100%;
