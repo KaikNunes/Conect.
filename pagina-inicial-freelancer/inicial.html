@@ -28,12 +28,7 @@
     </header>
 
     <main>
-        <p class="title">Meus Projetos</p>
-
-        <div class="quadrado-novo alias" onclick="openProject()">
-            <p><i class="fa-solid fa-plus fa-2x"></i></p>
-            <p class="">Novo Projeto</p>
-        </div>
+        <p class="title">suporte</p>
 
         <div class="quadrado c1 alias" onclick="openModal()">
             <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
@@ -44,19 +39,51 @@
             <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
             <p class="">Upgrade</p>
         </div>
+        
+
+        <p class="title">Redes</p>
+
+        <div class="quadrado c1 alias" onclick="openModal3()">
+            <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
+            <p class="">Servidor Bagunçado</p>
+        </div>
+        
+        <div class="quadrado c1 alias" onclick="openModal2()">
+            <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
+            <p class="">Upgrade</p>
+        </div>
+
+        <p class="title">Programação</p>
+
+        <div class="quadrado c1 alias" onclick="openModal()">
+            <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
+            <p class="">Computador não liga</p>
+        </div>
+        
+        <div class="quadrado c1 alias" onclick="openModal2()">
+            <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
+            <p class="">Upgrade</p>
+        </div>
+
+        <div class="quadrado c1 alias" onclick="openModal2()">
+            <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
+            <p class="">Upgrade</p>
+        </div>
+        
+        
     </main>
 
     <section class="menu-inferior">
         <ul>
             <div>
                 <li><a href="./inicial.html"><i class="fa-solid fa-square-poll-horizontal fa-2x"></i></a></li>
-                <p>Meus Projetos</p>
+                <p>Buscar Projetos</p>
             </div>
 
-            <div class="filtro">
+            <!-- <div class="filtro">
                 <li><a href="../procurar-tecnico/procurar.html"><i class="fa-solid fa-filter fa-2x"></i></a></li>
                 <p>Procurar Freelancer</p>
-            </div>
+            </div> -->
 
             <div>
                 <li><a href="../dashboard/index.html" target="_blank"><i class="fa-solid fa-gear fa-2x"></i></a></li>
@@ -92,18 +119,6 @@
         Please ensure Javascript is enabled for purposes of
         <a href="https://userway.org">website accessibility</a>
     </noscript>
-
-    <div id="modal-projeto" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeProject()">&times;</span>
-            <div class="conteudo">
-                <input type="text" rows="10" placeholder="Título" id="titulo-projeto">
-                <textarea rows="10" placeholder="Descrição" id="descricao-projeto"></textarea>
-                <button onclick="openFileExplorer()"><i class="fa-solid fa-paperclip"></i>Anexos</button>
-                <div id="overlay2"></div>
-            </div>
-        </div>
-    </div>
 
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -141,6 +156,25 @@
                 </p>
                 <img id="project-image2" src="./img/pc-xuxa.jfif" alt="">
                 <div id="overlay3"></div>
+                <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal3()">&times;</span>
+            <div class="conteudo">
+                <h2>Organizar Cabos do Servidor</h2>
+                <p class="descricao-modal">
+                    Somos uma empresa recente e de pequeno porte, que mudou de localização recentemente e ainda não possuímos um setor 
+                    de T.I à nossa disposição. 
+                    <br>
+                    Portanto, estamos à procura de técnicos para organização e mapeamento dos cabos do nosso servidor. 
+                    Se você é um freelancer confiável na área de Redes, gostaria de contar com sua ajuda nessa situação.
+                </p>
+                <img id="project-image3" src="./img/servidor-desorganizado.jfif" alt="">
+                <div id="overlay4"></div>
                 <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
             </div>
         </div>

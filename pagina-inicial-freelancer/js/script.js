@@ -30,6 +30,20 @@ function closeModal2() {
     document.getElementById("overlay").style.display = "none";
 }
 
+// teste
+
+function openModal3() {
+    document.getElementById("modal3").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closeModal3() {
+    document.getElementById("modal3").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+// fim teste
+
 function openFileExplorer() {
     var fileInput = document.createElement('input');
     fileInput.type = 'file';
@@ -46,6 +60,7 @@ projectImage.onclick = function () {
     } else {
         projectImage.classList.add("expanded");
         overlay.style.display = "block";
+        console.log(overlay);
     }
 };
 
@@ -59,5 +74,18 @@ projectImage2.onclick = function () {
     } else {
         projectImage2.classList.add("expanded");
         overlay2.style.display = "block";
+    }
+};
+
+var projectImage3 = document.getElementById("project-image3");
+var overlay3 = document.getElementById("overlay4");
+
+projectImage3.onclick = function () {
+    if (projectImage3.classList.contains("expanded")) {
+        projectImage3.classList.remove("expanded");
+        overlay3.style.display = "none";
+    } else {
+        projectImage3.classList.add("expanded");
+        overlay3.style.display = "block";
     }
 };
