@@ -84,7 +84,7 @@ body {
     cursor: pointer;
 }
 
-.project-image3 {
+#project-image3 {
     max-width: 100%;
     height: auto;
     cursor: pointer;
@@ -110,7 +110,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.project-image3.expanded {
+#project-image3.expanded {
     width: 500px;
     object-fit: contain;
     position: fixed;
@@ -165,7 +165,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.overlay3 {
+#overlay3 {
     display: none;
     position: fixed;
     z-index: 998;
@@ -176,7 +176,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.overlay4 {
+#overlay4 {
     display: none;
     position: fixed;
     z-index: 998;
