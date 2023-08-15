@@ -30,7 +30,6 @@ function closeModal2() {
     document.getElementById("overlay").style.display = "none";
 }
 
-// teste
 
 function openModal3() {
     document.getElementById("modal3").style.display = "block";
@@ -42,7 +41,25 @@ function closeModal3() {
     document.getElementById("overlay").style.display = "none";
 }
 
-// fim teste
+function openModal4() {
+    document.getElementById("modal4").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closeModal4() {
+    document.getElementById("modal4").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+function openModal5() {
+    document.getElementById("modal5").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closeModal5() {
+    document.getElementById("modal5").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
 
 function openFileExplorer() {
     var fileInput = document.createElement('input');
@@ -87,5 +104,31 @@ projectImage3.onclick = function () {
     } else {
         projectImage3.classList.add("expanded");
         overlay3.style.display = "block";
+    }
+};
+
+var projectImage4 = document.getElementById("project-image3");
+var overlay4 = document.getElementById("overlay5");
+
+projectImage4.onclick = function () {
+    if (projectImage4.classList.contains("expanded")) {
+        projectImage4.classList.remove("expanded");
+        overlay4.style.display = "none";
+    } else {
+        projectImage4.classList.add("expanded");
+        overlay4.style.display = "block";
+    }
+};
+
+var projectImage5 = document.getElementById("project-image3");
+var overlay5 = document.getElementById("overlay6");
+
+projectImage5.onclick = function () {
+    if (projectImage5.classList.contains("expanded")) {
+        projectImage5.classList.remove("expanded");
+        overlay3.style.display = "none";
+    } else {
+        projectImage5.classList.add("expanded");
+        overlay5.style.display = "block";
     }
 };
