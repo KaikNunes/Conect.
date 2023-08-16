@@ -634,7 +634,7 @@ header{
 
 #GestaoRiscos{
     display: none;
-    max-width: 11%;
+    width: 11%;
     color: white;
     background-color: #8C52FF;
     margin-left: 15% ;
