@@ -275,6 +275,9 @@ html {
 
 .imagem_enviada_send, .imagem_enviada{
     width: 200px;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
 }
 
 .file-input{
