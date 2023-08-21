@@ -39,8 +39,22 @@ header {
   width: 100%;
 }
 
+.logo-txt{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 #logo {
-  width: 100px;
+  width: 50px;
+}
+
+.txt{
+  font-size: 25px;
+  font-family: 'codecproextrabold';
+  font-weight:lighter;
+  color: #3a3a3a;
+  
 }
 
 ul {
@@ -180,6 +194,7 @@ h6 {
   font-family: "codecproextrabold";
   font-size: 45px;
   text-align: center;
+  margin: 10px;
 }
 
 #segundo {
@@ -318,7 +333,8 @@ h6 {
   font-size: 16px;
 }
 
-#btn-cadastro-freelancer, #btn-cadastro-cliente {
+#btn-cadastro-freelancer,
+#btn-cadastro-cliente {
   background-color: #ffffff;
   border-radius: 5px;
   border: none;
@@ -334,7 +350,8 @@ h6 {
   text-decoration: none;
 }
 
-#btn-cadastro-freelancer:hover, #btn-cadastro-cliente:hover {
+#btn-cadastro-freelancer:hover,
+#btn-cadastro-cliente:hover {
   background-color: #999;
   color: #ffffff;
   transition: 0.2s;
@@ -616,6 +633,66 @@ h6 {
   color: #0087B6;
 }
 
+.footer {
+  background-color: #0a1a44;
+  color: white;
+  padding: 75px;
+  text-align: center;
+  /* height: 500px; */
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.site-name {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.site-name{
+  font-weight: 200;
+  font-family: 'codecproextrabold';
+}
+
 /* Estilos para telas pequenas */
 @media screen and (max-width: 480px) {
   body {
@@ -776,50 +853,57 @@ h6 {
     width: 100%;
   }
 
-/* CHAMADA FREELANCER */
-#freelancer-img, #cliente-img {
-  visibility: hidden;
-}
-
-@media screen and (max-width: 410px) {
-  #logo {
-    left: 36%;
-    margin-top: -7%;
-    position: absolute;
+  /* CHAMADA FREELANCER */
+  #freelancer-img,
+  #cliente-img {
+    visibility: hidden;
   }
 
-  .chamada, .paragrafo {
-    margin-left: 240px;
-    text-align: center;
-  }
+  @media screen and (max-width: 410px) {
+    #logo {
+      left: 36%;
+      margin-top: -7%;
+      position: absolute;
+    }
 
-  #btn-saiba-mais{
-    margin-left: 323px;
-  }
+    .chamada,
+    .paragrafo {
+      margin-left: 240px;
+      text-align: center;
+    }
 
-  .titulo2{
-    font-size: 2.1875rem;
-    line-height: 2.5rem;
-    margin-left: -15px;
-    margin: 15px 0px;
-  }
+    #btn-saiba-mais {
+      margin-left: 323px;
+    }
 
-  #suporte, #gerenciamento, #consultoria, #treinamento{
-    margin: 10px 100px 30px 41px;
-    width: 310px;
-  }
+    .titulo2 {
+      font-size: 2.1875rem;
+      line-height: 2.5rem;
+      margin-left: -15px;
+      margin: 15px 0px;
+    }
 
-  #cliente-txt h6{
-    margin-bottom: 20px;
-    margin-left: 350px;
-    margin-top: -2.5rem;
-  }
+    #suporte,
+    #gerenciamento,
+    #consultoria,
+    #treinamento {
+      margin: 10px 100px 30px 41px;
+      width: 310px;
+    }
 
-  #aval-isabela, #aval-lucas, #aval-camila{
-    margin: 0px 0px 50px 94px;
-    width: 50%;
-  }
+    #cliente-txt h6 {
+      margin-bottom: 20px;
+      margin-left: 350px;
+      margin-top: -2.5rem;
+    }
 
-} 
+    #aval-isabela,
+    #aval-lucas,
+    #aval-camila {
+      margin: 0px 0px 50px 94px;
+      width: 50%;
+    }
+
+  }
 
 }
