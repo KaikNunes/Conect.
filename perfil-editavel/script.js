@@ -1,28 +1,24 @@
-const inputFiles = document.querySelector("#edita");
-const pictureImage = document.querySelector("#fototeste");
-const picturreImageText = "escolha uma imagem";
-pictureImage.innerHTML = picturreImageText;
+  // Obtém o elemento do input de arquivo
+  var inputElement = document.getElementById("edita");
 
-	inputFiles.addEventListener("change", function (e){
-		const inputTarget = e.target;
-		const file = inputTarget.files[0];
+  // Define um ouvinte de eventos para o input de arquivo
+  inputElement.addEventListener("change", handleFiles, false);
 
-		if (file) {
-			const reader = new FileReader();
+  // Função para lidar com a seleção de arquivos
+  function handleFiles() {
+    var fileList = this.files; // Obter a lista de arquivos selecionados
+    var file = fileList[0]; // Obter o primeiro arquivo da lista
 
-			reader.addEventListener("load", function (e) {
-				const readerTarget = e.target;
+    // Verifica se um arquivo foi selecionado
+    if (file) {
+      var reader = new FileReader();
 
-				const img = document.createElement("img");
-				img.src = readerTarget.result;
-				img.classList.add("fototeste");
+      // Define uma função para ser executada quando o arquivo for carregado
+      reader.onload = function (e) {
+        var imageElement = document.getElementById("fototeste");
+        imageElement.src = e.target.result; // Define a imagem de perfil para a imagem carregada
+      };
 
-				pictureImage.innerHTML = "";
-				pictureImage.appendChild(img);
-			});
-			
-			reader.readAsDataURL(file);
-		} else {
-			pictureImage.innerHTML = picturreImageText;
-		}
-	});
+      // Lê o arquivo como um URL de dados
+      reader.readAsDataURL(file);
+    }}
