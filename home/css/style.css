@@ -39,22 +39,8 @@ header {
   width: 100%;
 }
 
-.logo-txt{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-#logo {
-  width: 50px;
-}
-
-.txt{
-  font-size: 25px;
-  font-family: 'codecproextrabold';
-  font-weight:lighter;
-  color: #3a3a3a;
-  
+#logo{
+  width: 105px;
 }
 
 ul {
