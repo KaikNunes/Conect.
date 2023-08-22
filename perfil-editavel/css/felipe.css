@@ -12,6 +12,25 @@
 html{
  scroll-behavior: smooth;
 }
+#seja-pro {
+  color: #ffff;
+  background-color: #8c52ff;
+  padding: 8px;
+  border-radius: 15px;
+  font-family: 'codecpro';
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#seja-pro:hover {
+  background-color: #0a1a44;
+  color: white;
+  transition: 0.4s;
+}
+
+#seja-pro:active {
+  transform: scale(0.97);
+}
 
 body{
   color: white;
@@ -51,25 +70,55 @@ header{
   width: 100px;
 }
 
+.search-box{
+  transform: translate(-50%,-50%);
+  background-color: lightgray;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 40px; 
+}
 
-#seja-pro {
-  color: #ffff;
-  background-color: #8c52ff;
-  padding: 8px;
-  border-radius: 15px;
-  font-family: 'codecpro';
-  cursor: pointer;
+.search-txt{
+  margin-left: 15px;
+}
+  
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 5px;
+  transition: 0.5s;
+  
+}
+  
+.search-box:hover > .search-btn{
+  background: none;
+  transition: 0.5s;
+}
+  
+  
+.search-btn{
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0A1A44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 }
-
-#seja-pro:hover {
-  background-color: #0a1a44;
-  color: white;
-  transition: 0.4s;
-}
-
-#seja-pro:active {
-  transform: scale(0.97);
+  
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 15px;
+  transition: 0.3s;
+  line-height: 40px;
+  width: 240px;
 }
 
 #banner img {
@@ -95,6 +144,53 @@ header{
   width: 50px;
   margin-left: 54%;
   margin-top: 1%;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+}
+
+#lapis1{
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+#lapis2{
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+#lapis3{
+    width: 50px;
+    height: 50px;
+    margin-top: 35%;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+#lapis4{
+  width: 50px;
+  height: 50px;
+  margin-top: 24%;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  right: 1%;
+}
+
+#bannerEdit{
+  width: 10px;
+  height: 10px;
+  margin-left: 30%;
+  margin-top: 20%;
   cursor: pointer;
   position: absolute;
   display: flex;
@@ -227,3 +323,11 @@ header{
   align-items: center;
   justify-content: space-around;
 }
+#file-input {
+  opacity: 0;
+  visibility: hidden;
+}
+#perfilEditInput {
+  display: none;
+}
+
