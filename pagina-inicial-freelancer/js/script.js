@@ -132,3 +132,14 @@ projectImage5.onclick = function () {
         overlay5.style.display = "block";
     }
 };
+
+projectImage3.onclick = function () {
+    console.log("Image clicked!"); // Verifique se essa mensagem é exibida no console
+    if (projectImage3.classList.contains("expanded")) {
+        projectImage3.classList.remove("expanded");
+        overlay3.style.display = "none";
+    } else {
+        projectImage3.classList.add("expanded");
+        overlay3.style.display = "block";
+    }
+};
