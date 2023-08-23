@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="../home/img/c-roxo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <title>Conect. | Página Inicial</title>
 </head>
 
@@ -38,7 +39,7 @@
             <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
             <p class="">Computador não liga</p>
         </div>
-        
+
         <div class="quadrado c1 alias" onclick="openModal2()">
             <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
             <p class="">Upgrade</p>
@@ -94,8 +95,21 @@
             <div class="conteudo">
                 <input type="text" rows="10" placeholder="Título" id="titulo-projeto">
                 <textarea rows="10" placeholder="Descrição" id="descricao-projeto"></textarea>
-                <button onclick="openFileExplorer()"><i class="fa-solid fa-paperclip"></i>Anexos</button>
-                <div id="overlay2"></div>
+                <form action="processar_upload.php" method="post" enctype="multipart/form-data">
+                    <form>
+                        <input type="file" id="imagem" accept="image/*">
+                        <div id="imagem-preview"></div>
+                    </form>
+                    <div id="overlay2"></div>
+                    <button class="button">
+                        <button class="button">
+                            <span class="default">Enviar</span>
+                            <span class="success">Enviado
+                            </span>
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </button>
+                    </button>
             </div>
         </div>
     </div>
@@ -136,13 +150,40 @@
                 </p>
                 <img id="project-image2" src="./img/pc-xuxa.jfif" alt="">
                 <div id="overlay3"></div>
-                <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
+                <button><i class="fa-solid fa-paperclip"></i>Anexos</button>
             </div>
         </div>
     </div>
 
     <div id="overlay"></div>
+    <script>
+        const imagemInput = document.getElementById('imagem');
+        const imagemPreview = document.getElementById('imagem-preview');
 
+        imagemInput.addEventListener('change', function () {
+            const file = imagemInput.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const image = new Image();
+                    image.src = e.target.result;
+
+                    image.onload = function () {
+                        imagemPreview.innerHTML = '';
+                        imagemPreview.appendChild(image);
+                    };
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                imagemPreview.innerHTML = '';
+            }
+        });
+    </script>
+    <script>
+        
+    </script>
     <script src="./js/script.js"></script>
 </body>
 
