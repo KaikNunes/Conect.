@@ -844,6 +844,10 @@ h6 {
     visibility: hidden;
   }
 
+  footer{
+    display: none;
+  }
+
   @media screen and (max-width: 410px) {
     #logo {
       left: 36%;
@@ -1052,6 +1056,7 @@ h6 {
 .grid{
   display: grid;
   grid-template-columns: 200px 200px;
+  margin-left: -30px;
 }
 
 .img-fluid{
