@@ -67,7 +67,7 @@ $(document).ready(function() {
     function addImageToChat(sender, imageURL) {
       var imageContainer = $('<div class="d-flex justify-content-' + (sender === 'user' ? 'end' : 'start') + ' mb-4">');
       var userImage = $();
-      var imageElement = $('<img class="imagem_enviada' + (sender === 'user' ? '_send' : '') + '">').attr('src', imageURL);
+      var imageElement = $('<img id="imagem_enviada' + (sender === 'user' ? '_send' : '') + '">').attr('src', imageURL);
       var messageTime = $('<span class="msg_time' + (sender === 'user' ? '_send' : '') + '">').text(getCurrentTime());
       imageElement.append(messageTime);
       imageContainer.append(userImage).append(imageElement);
@@ -89,6 +89,8 @@ $(document).ready(function() {
       messageContainer.append(userImage).append(messageBox);
       $('.msg_card_body').append(messageContainer);
     }
+
+   
 
     function getRandomResponse() {
       var responses = [
@@ -223,3 +225,5 @@ $(document).ready(function() {
     searchFilter.init();
 
   })();
+
+  
