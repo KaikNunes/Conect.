@@ -7,7 +7,7 @@
 
 <head>
     <title>Conect. | Chat</title>
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="container-fluid h-100">
+    <div class="container-fluid h-100" id="overlay2">
         <div class="row justify-content-center h-100">
             <div class="col-md-4 col-xl-3 chat">
                 <div class="card mb-sm-3 mb-md-0 contacts_card">
@@ -142,7 +142,8 @@
                         <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
                         <div class="action_menu">
                             <ul>
-                                <li><i class="fas fa-user-circle icon"></i><a href="../perfil/perfil-felipe.html">Ver perfil </a></li>
+                                <li><i class="fas fa-user-circle icon"></i><a href="../perfil/perfil-felipe.html">Ver
+                                        perfil </a></li>
                                 <li><i class="fas fa-users"></i> Adicionar a amigos próximos </li>
                                 <li><i class="fas fa-plus"></i> Adicionar ao grupo </li>
                                 <li><i class="fas fa-ban"></i> Bloquear </li>
@@ -195,49 +196,89 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <div class="input-group">
-                            <div class="input-group-append">
-                                <input type="file" id="fileInput" style="display: none; ">
-                                <label for="fileInput" style="margin: 0 !important">
-                                    <span class="input-group-text attach_btn" style="width: 100%; height: 100%;"><i class="fas fa-paperclip"></i></span>
-                                </label>
+                        <div class="image-container">
+                            <div class="input-group">
+                                <div class="input-group-append">
+                                    <input type="file" id="fileInput" style="display: none; ">
+                                    <label for="fileInput" style="margin: 0 !important">
+                                        <span class="input-group-text attach_btn" style="width: 100%; height: 100%;"><i
+                                                class="fas fa-paperclip"></i></span>
+                                    </label>
+                                </div>
+                                <textarea e="" class="form-control type_msg" placeholder="Mensagem..."></textarea>
+                                <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
                             </div>
-                            <textarea e="" class="form-control type_msg"
-                                placeholder="Mensagem..."></textarea>
-                            <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script>
-        (function(d){
-           var s = d.createElement("script");
-           /* uncomment the following line to override default position*/
-           s.setAttribute("data-position", 2);
-           /* uncomment the following line to override default size (values: small, large)*/
-           /* s.setAttribute("data-size", "large");*/
-           /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
-           /* s.setAttribute("data-language", "null");*/
-           /* uncomment the following line to override color set via widget (e.g., #053f67)*/
-           /* s.setAttribute("data-color", "#2d68ff");*/
-           /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
-           /* s.setAttribute("data-type", "1");*/
-           /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
-           /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
-           /* uncomment the following line to override support on mobile devices*/
-           /* s.setAttribute("data-mobile", true);*/
-           /* uncomment the following line to set custom trigger action for accessibility menu*/
-           /* s.setAttribute("data-trigger", "triggerId")*/
-           s.setAttribute("data-account", "GCdZkP2fQf");
-           s.setAttribute("src", "https://cdn.userway.org/widget.js");
-           (d.body || d.head).appendChild(s);})(document)
-   </script>
-  <noscript>
-  Please ensure Javascript is enabled for purposes of 
-  <a href="https://userway.org">website accessibility</a>
-  </noscript>
+        <script>
+            (function (d) {
+                var s = d.createElement("script");
+                /* uncomment the following line to override default position*/
+                s.setAttribute("data-position", 2);
+                /* uncomment the following line to override default size (values: small, large)*/
+                /* s.setAttribute("data-size", "large");*/
+                /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+                /* s.setAttribute("data-language", "null");*/
+                /* uncomment the following line to override color set via widget (e.g., #053f67)*/
+                /* s.setAttribute("data-color", "#2d68ff");*/
+                /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+                /* s.setAttribute("data-type", "1");*/
+                /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
+                /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
+                /* uncomment the following line to override support on mobile devices*/
+                /* s.setAttribute("data-mobile", true);*/
+                /* uncomment the following line to set custom trigger action for accessibility menu*/
+                /* s.setAttribute("data-trigger", "triggerId")*/
+                s.setAttribute("data-account", "GCdZkP2fQf");
+                s.setAttribute("src", "https://cdn.userway.org/widget.js");
+                (d.body || d.head).appendChild(s);
+            })(document)
+        </script>
+        <!-- ... (seu código HTML existente) ... -->
+
+        <script>
+            $(document).ready(function() {
+    // Função para alternar a classe "expanded" e mostrar/ocultar a sobreposição
+    function toggleImageExpand(image) {
+        if (image.hasClass('expanded')) {
+            image.removeClass('expanded');
+            image.siblings('.overlay').hide(); // Oculta a sobreposição
+        } else {
+            image.addClass('expanded');
+            image.siblings('.overlay').show(); // Mostra a sobreposição
+        }
+    }
+
+    // Adicionar evento de clique às imagens dentro do chat
+    $('.msg_card_body').on('click', '.user_img', function() {
+        toggleImageExpand($(this));
+    });
+});
+        
+    $(document).ready(function() {
+        // Função para expandir ou contrair a imagem ao clicar
+        function toggleImageExpand(image) {
+            if (image.hasClass('expanded')) {   
+                image.removeClass('expanded');
+            } else {
+                image.addClass('expanded');
+            }
+        }
+
+        // Adicionar evento de clique às imagens
+        $('.msg_card_body').on('click', 'img', function() {
+            toggleImageExpand($(this));
+        });
+    }); 
+        </script>
+
+        <noscript>
+            Please ensure Javascript is enabled for purposes of
+            <a href="https://userway.org">website accessibility</a>
+        </noscript>
 </body>
 
 </html>
