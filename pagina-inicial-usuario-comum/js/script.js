@@ -8,6 +8,10 @@ function closeProject() {
     document.getElementById("overlay").style.display = "none";
 }
 
+function fecharModalAposTempo() {
+    setTimeout(closeProject, 2000); // Fechar novamente após 5 segundos
+}
+
 
 function openModal() {
     document.getElementById("modal").style.display = "block";

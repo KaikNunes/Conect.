@@ -940,7 +940,8 @@ h6 {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  width: 350px;
+  margin-left: -110px;
 }
 .footer-text p {
   margin-bottom: 14px;
