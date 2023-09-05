@@ -428,3 +428,83 @@ p {
     margin: 10px 40px 0 40px;
     color: #d9d9d9;
 }
+/* Estilos para a aba de notificação */
+.notification-tab {
+    position: fixed;
+    bottom: 497px; /* Altura desejada em relação ao fundo da janela */
+    left: 80%;
+    transform: translateX(-50%);
+    background-color: #8e44ad;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 999;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation-name: slide-down;
+    animation-duration: 0.5s;
+}
+
+#closeNotificationButton{
+    color: #000;
+}
+
+.centro{
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #000;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: #999;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover {
+    color: rgba(0, 0, 0, 0.7);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 352px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+

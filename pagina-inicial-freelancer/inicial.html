@@ -20,9 +20,52 @@
         <a href="../index.html"><img id='logo' src="../home/img/conect-logo.png" alt=""></a>
 
         <ul>
-            <li><a id="seja-pro"  href="../planos/planos.html">Seja PRO</a></li>
+            <li><a id="seja-pro" href="../planos/planos.html">Seja PRO</a></li>
             <li><a href="../chat/chat.html"><i class="fa-solid fa-comments-dollar fa-2x"></i></a></li>
-            <li class="second-child"><a href=""><i class="fa-solid fa-bell fa-2x"></i></a></li>
+
+            <!-- Conteúdo da aba de notificação -->
+            <!-- ... (seu código HTML anterior) ... -->
+
+            <div class="dropdown">
+                <!-- Ícone de notificação -->
+                <div onclick="toggleDropdown()" class="dropbtn"><i class="fa-solid fa-bell fa-2x"></i></div>
+
+                <!-- Dropdown de notificação -->
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">
+                        <p class="centro">
+                            CENTRO DE ALERTAS
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p>
+                            <h6>Agosto 31 2023</h6>
+                            <i class="fa-solid fa-file-circle-check" style="color: #1b34a0;"></i>
+                            Um novo relatório mensal está pronto para download!
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p>
+                            <h6>Setembro 01 2023</h6>
+                            <i class="fa-solid fa-circle-dollar-to-slot" style="color: #209257;"></i>
+                            $ 290,29 foram depositados em sua conta!
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p>
+                            <h6>Setembro 10 2023</h6>
+                            <i class="fa-solid fa-triangle-exclamation fa-beat" style="color: #c4bd0e;"></i>
+                            Alerta de gastos: notamos gastos excepcionalmente altos em sua conta.
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <!-- ... (continuação do seu código HTML) ... -->
+
+
             <li><a href="../perfil-editavel/perfil-felipe.html"><i class="fa-solid fa-circle-user fa-3x"></i></a></li>
         </ul>
     </header>
@@ -34,12 +77,12 @@
             <p><i class="fa-solid fa-laptop-medical fa-2x"></i></p>
             <p class="">Computador não liga</p>
         </div>
-        
+
         <div class="quadrado c1 alias" onclick="openModal2()">
             <p><i class="fa-solid fa-circle-up fa-2x"></i></p>
             <p class="">Upgrade</p>
         </div>
-        
+
 
         <p class="title">Redes</p>
 
@@ -47,7 +90,7 @@
             <p><i class="fa-solid fa-server fa-2x"></i></p>
             <p class="">Servidor Bagunçado</p>
         </div>
-        
+
         <div class="quadrado c1 alias" onclick="openModal4()">
             <p><i class="fa-solid fa-folder-tree fa-2x"></i></p>
             <p class="">Rede Logica</p>
@@ -59,7 +102,7 @@
             <p><i class="fa-solid fa-code fa-2x"></i></i></p>
             <p class="">Front-End</p>
         </div>
-        
+
     </main>
 
     <section class="menu-inferior">
@@ -156,10 +199,11 @@
             <div class="conteudo">
                 <h2>Organizar Cabos do Servidor</h2>
                 <p class="descricao-modal">
-                    Somos uma empresa recente e de pequeno porte, que mudou de localização recentemente e ainda não possuímos um setor 
-                    de T.I à nossa disposição. 
+                    Somos uma empresa recente e de pequeno porte, que mudou de localização recentemente e ainda não
+                    possuímos um setor
+                    de T.I à nossa disposição.
                     <br>
-                    Portanto, estamos à procura de técnicos para organização e mapeamento dos cabos do nosso servidor. 
+                    Portanto, estamos à procura de técnicos para organização e mapeamento dos cabos do nosso servidor.
                     Se você é um freelancer confiável na área de Redes, gostaria de contar com sua ajuda nessa situação.
                 </p>
                 <img id="project-image3" src="./img/servidor-desorganizado.jfif" alt="">
@@ -175,7 +219,11 @@
             <div class="conteudo">
                 <h2>Otimização de Rede Lógica para Melhor Desempenho e Segurança</h2>
                 <p class="descricao-modal">
-                    Estamos em busca de um profissional qualificado para otimizar a rede lógica de nossa empresa. O objetivo é aprimorar a eficiência da comunicação interna e externa, garantindo um fluxo de dados rápido e seguro. O trabalho envolve a configuração de roteadores, switches e VLANs, além da implementação de medidas de segurança robustas. Se você é experiente em redes e apaixonado por melhorias técnicas, adoraríamos tê-lo em nossa equipe.
+                    Estamos em busca de um profissional qualificado para otimizar a rede lógica de nossa empresa. O
+                    objetivo é aprimorar a eficiência da comunicação interna e externa, garantindo um fluxo de dados
+                    rápido e seguro. O trabalho envolve a configuração de roteadores, switches e VLANs, além da
+                    implementação de medidas de segurança robustas. Se você é experiente em redes e apaixonado por
+                    melhorias técnicas, adoraríamos tê-lo em nossa equipe.
                 </p>
                 <img id="project-image4" src="" alt="">
                 <div id="overlay5"></div>
@@ -190,7 +238,11 @@
             <div class="conteudo">
                 <h2>Criação de Interface Responsiva para Site de E-Commerce</h2>
                 <p class="descricao-modal">
-                    Procuramos um desenvolvedor Front-End criativo para projetar a interface do usuário de nosso site de comércio eletrônico. Sua tarefa será transformar designs em wireframes interativos e criar uma experiência de compra atraente para nossos clientes. É essencial ter habilidades sólidas em HTML, CSS e JavaScript, bem como experiência em tornar o design compatível com dispositivos móveis e desktops.
+                    Procuramos um desenvolvedor Front-End criativo para projetar a interface do usuário de nosso site de
+                    comércio eletrônico. Sua tarefa será transformar designs em wireframes interativos e criar uma
+                    experiência de compra atraente para nossos clientes. É essencial ter habilidades sólidas em HTML,
+                    CSS e JavaScript, bem como experiência em tornar o design compatível com dispositivos móveis e
+                    desktops.
                 </p>
                 <img id="project-image5" src="" alt="">
                 <div id="overlay6"></div>
@@ -200,8 +252,8 @@
     </div>
 
     <div id="overlay"></div>
-
     <script src="./js/script.js"></script>
+
 </body>
 
 </html>

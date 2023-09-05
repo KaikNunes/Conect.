@@ -229,6 +229,9 @@ header{
   margin-left: 5%;
   margin-top: 0.2%;
   line-height: 30px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 #perfil h5{
@@ -280,6 +283,29 @@ header{
 }
 
 .projetos p{
+  color: black;
+  text-align: justify;
+  margin-top: 0.2%;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.projetos1{
+  max-width: 73%;
+  margin-left: 4%;
+  border-radius: 20px;
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.projetos1 h5{
+  font-family: 'codecprobold';
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.projetos1 p{
   color: black;
   text-align: justify;
   margin-top: 0.2%;
