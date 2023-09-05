@@ -7,6 +7,10 @@ a{
     text-decoration:none;
 }
 
+body{
+    width: 1920px;
+}
+
 .fundo{
     background-color: #071D38;
     

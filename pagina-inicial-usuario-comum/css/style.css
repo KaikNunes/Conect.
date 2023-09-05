@@ -305,9 +305,9 @@ p {
     color: #d9d9d9;
 }
 .button {
-    --primary: #275EFE;
-    --primary-dark: #2055EE;
-    --primary-darkest: #133FC0;
+    --primary: #8c52ff;
+    --primary-dark: #653cb8;
+    --primary-darkest: #4a2c86;
     --text: #FFFFFF;
     --text-opacity: 1;
     --success: #2B3044;
@@ -365,6 +365,7 @@ p {
     transform: rotate(calc(var(--rotate) * 1deg)) translateZ(0);
     -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
+    align-self: center;
   }
   .button .left,
   .button .right {
@@ -443,4 +444,10 @@ p {
   }
 
 
-
+.botao-escolher-arquivo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}

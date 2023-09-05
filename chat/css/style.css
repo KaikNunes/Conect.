@@ -2,8 +2,7 @@ body,
 html {
     height: 100%;
     margin: 0;
-    background: #7F7FD5;
-    background-image: linear-gradient(to right, #8C52FF, #0A1A44);
+    background: linear-gradient(90deg, rgb(104, 54, 204) 0%, rgba(10,26,68,1) 85%);
 }
 
 .chat {
@@ -195,7 +194,10 @@ html {
     margin-bottom: auto;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: #82ccdd;
+    background-color: #8c52ff;
+    background-color: #00a1c5;
+    background-color: #00776d;
+    color: white;
     padding: 10px;
     position: relative;
 }
@@ -204,7 +206,9 @@ html {
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 25px;
-    background-color: #78e08f;
+    background-color: #82ccdd;
+    background-color: #8c52ff;
+    color: white;
     padding: 10px;
     position: relative;
 }
