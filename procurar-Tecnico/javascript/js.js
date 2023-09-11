@@ -120,7 +120,7 @@ btnGerencSistemas.onclick = () => {
     btnGerencIncidentes.style.display = "block";
     btnGerencOutros.style.display = "block";
 
-    someBotoes (btnSite, btnSoftware, btnHardware, btnMontagem, btnManutencaoPreventiva, btnRecuperacaoPecas, btnSubstituicaoPecas, btnDiagnostico, btnInfraestrutura, btnImplementacaoSoftware, btnSegurancaInformacao, btnTransformacaoDigital, btnRedesComputadores, btnGerenciamentoProjetosTI, btnConformidadeLGPD, btnSegurancaInfoProtecaoDados, btnGestaoRiscos, btnPrivacidadeProtecaoTerceiros, btnProcessosAuditoria, btnPacoteOffice, btnSistemas, btnMontagemManutencao, btnTreinProgramacao, btnTreinRedes)
+    someBotoes (btnSite, btnSoftware, btnHardware,btnMontagem, btnManutencaoPreventiva, btnRecuperacaoPecas, btnSubstituicaoPecas, btnDiagnostico, btnInfraestrutura, btnImplementacaoSoftware, btnSegurancaInformacao, btnTransformacaoDigital, btnRedesComputadores, btnGerenciamentoProjetosTI, btnConformidadeLGPD, btnSegurancaInfoProtecaoDados, btnGestaoRiscos, btnPrivacidadeProtecaoTerceiros, btnProcessosAuditoria, btnPacoteOffice, btnSistemas, btnMontagemManutencao, btnTreinProgramacao, btnTreinRedes)
 }
 
 btnConsultoria.onclick = () => {
