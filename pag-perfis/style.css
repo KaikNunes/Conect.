@@ -12,6 +12,8 @@ body{
     font-size: 40px;
     text-align: center;
     font-family: 'codecproextrabold';
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -165,10 +167,13 @@ header {
 
 /* Parte do Felipe e Laura acima */
 
-#felipe-juliana{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
 }
 
 
