@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'codecproextrabold';
+    src: url('./f3298108-1a85-4d0b-8de4-2d9e23b64a74.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'codecprobold';
+    src: url('./1c2b3694-9387-4420-8505-ad092fde48c0.woff') format('woff');
+    font-weight: 1000px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'codecpro';
+    src: url('./1c2b3694-9387-4420-8505-ad092fde48c0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
