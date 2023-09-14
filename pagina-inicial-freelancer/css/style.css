@@ -509,3 +509,26 @@ p {
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
+  @media screen and (max-width: 480px) {
+	header {
+	  position: relative;
+	  width: 100%;
+	}
+  
+	.primeiro {
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 30%;
+	}
+  
+	#freelancer-login,
+	#cliente-login {
+	  visibility: hidden;
+	}
+  
+	#logo {
+	  left: 40%;
+	  margin-top: -7%;
+	  position: absolute;
+	}
+}
