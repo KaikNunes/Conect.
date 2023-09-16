@@ -32,7 +32,7 @@ A Conect visa simplificar a busca por trabalhos freelancers e conectar profissio
 
 Se você é um freelancer em busca de oportunidades ou um empregador que deseja contratar talentos de tecnologia, a Conect é o lugar certo para você. Aqui estão algumas etapas para começar:
 
-1. **Crie uma Conta**: Vá para [https://www.conect.com](https://www.conect.com) e crie uma conta gratuita.
+1. **Crie uma Conta**: Vá para [https://www.conect.com](conect.solutions) e crie uma conta gratuita.
 
 2. **Complete seu Perfil**: Preencha todas as informações relevantes em seu perfil para destacar suas habilidades e experiência.
 
