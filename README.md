@@ -1,10 +1,8 @@
-# Projeto Integrador - Senac Minas
+# Conect - Plataforma de Freelancers de Tecnologia
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Senac_logo.svg/2560px-Senac_logo.svg.png" width="50px">
 
 > Status: Developing... 🚧
-
-# Conect - Plataforma de Freelancers de Tecnologia
 
 Bem-vindo ao repositório oficial da plataforma de freelancers "Conect"! Este projeto tem como objetivo criar uma plataforma dedicada exclusivamente à comunidade de tecnologia, conectando freelancers talentosos a projetos empolgantes. Seja você um desenvolvedor, designer, especialista em marketing digital ou qualquer outro profissional de tecnologia, a Conect está aqui para ajudar a encontrar oportunidades de trabalho que correspondam às suas habilidades e interesses.
 
