@@ -299,6 +299,11 @@ p {
     transition: 0.5s;
 }
 
+.projetos{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
 .menu-inferior>ul>div>li>a>i,
 .menu-inferior>ul>div>p {
     margin: 10px 40px 0 40px;
