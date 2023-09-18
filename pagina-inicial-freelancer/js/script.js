@@ -196,3 +196,27 @@ projectImage3.onclick = function () {
             }
         }
     }
+    var dropdownVisible = false;
+
+// Função para alternar a visibilidade do dropdown
+function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdownVisible = !dropdownVisible;
+
+    if (dropdownVisible) {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+}
+
+// Fechar o dropdown se o usuário clicar fora dele ou no ícone de notificação
+window.onclick = function (event) {
+    var dropdown = document.getElementById("myDropdown");
+    var icon = document.querySelector(".dropbtn i");
+
+    if (event.target !== dropdown && event.target !== icon) {
+        dropdown.style.display = "none";
+        dropdownVisible = false;
+    }
+}
