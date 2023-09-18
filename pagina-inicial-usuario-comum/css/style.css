@@ -456,3 +456,34 @@ p {
     align-items: center;
     gap: 100px;
 }
+
+/* Estilo para o botão de finalização */
+.botao-finalizacao {
+    background-color: #2ECC71; /* Vermelho */
+    color: #fff; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o ícone */
+  i.fas.fa-trash {
+    margin-right: 5px;
+  }
+  
+  .swal-button--confirm {
+    background-color: #2ecc71; /* Cor de fundo para botões de confirmação */
+  }
+  .swal-button--confirm:hover {
+    background-color: #2ecc71; /* Cor de fundo para botões de confirmação */
+    
+  }
+
+  /* .confirm-button:hover{
+    background-color: #2ecc71;
+  } */
+
+  .custom-confirm-button{
+    background-color: #2ecc71
+  }

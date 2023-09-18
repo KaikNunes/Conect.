@@ -183,18 +183,27 @@ function exibirAlerta(){
         title: "Você tem certeza?",
         text: "Se você encerrar seu projeto, não será possível receber novos contatos",
         icon: "warning",
-        buttons: true,
         buttons: {
-            cancel: "Cancelar",   // Traduzindo o botão de cancelamento
-            confirm: "Confirmar", // Traduzindo o botão de confirmação
+          cancel: {
+            text: "Cancelar",
+            value: null,
+            visible: true,
+            className: "",
+            closeModal: true,
+          },
+          confirm: {
+            text: "Confirmar",
+            value: true,
+            visible: true,
+            className: "custom-confirm-button",
+            closeModal: true,
+          },
         },
-        dangerMode: true,       
-      })
-      .then((willDelete) => {
+      }).then((willDelete) => {
         if (willDelete) {
           swal("Projeto encerrado", {
             icon: "success",
           });
-        } 
-    });
-}
+        }
+      });
+    }
