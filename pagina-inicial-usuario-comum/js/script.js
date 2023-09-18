@@ -198,3 +198,91 @@ function exibirAlerta(){
         } 
     });
 }
+
+var dropdownVisible = false;
+
+// Função para alternar a visibilidade do dropdown
+function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdownVisible = !dropdownVisible;
+
+    if (dropdownVisible) {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+
+}
+
+
+// Fechar o dropdown se o usuário clicar fora dele
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdown = document.getElementById("myDropdown");
+        if (dropdownVisible) {
+            dropdown.style.display = "none";
+            dropdownVisible = false;
+        }
+    }
+}
+
+function slideDownNotificationTab() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdown.classList.toggle("show");
+    console.log("Oi button");
+}
+
+function slideDownNotificationTabIcon() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    console.log("Oi icon");
+}
+
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}   
+
+// Fechar o dropdown se o usuário clicar fora dele ou no ícone de notificação
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn')) {
+    var dropdown = document.getElementById("myDropdown");
+    if (dropdown.classList.contains('show')) {
+        dropdown.classList.remove('show');
+    }
+}
+}
+
+var dropdownVisible = false;
+
+// Função para alternar a visibilidade do dropdown
+function toggleDropdown() {
+var dropdown = document.getElementById("myDropdown");
+dropdownVisible = !dropdownVisible;
+
+if (dropdownVisible) {
+    dropdown.style.display = "block";
+} else {
+    dropdown.style.display = "none";
+}
+}
+
+// Fechar o dropdown se o usuário clicar fora dele ou no ícone de notificação
+window.onclick = function (event) {
+var dropdown = document.getElementById("myDropdown");
+var icon = document.querySelector(".dropbtn i");
+
+if (event.target !== dropdown && event.target !== icon) {
+    dropdown.style.display = "none";
+    dropdownVisible = false;
+}
+}
