@@ -273,6 +273,7 @@ header{
   border-radius: 20px;
   background-color: #F1F1F1;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -316,6 +317,7 @@ header{
 #avaliacoes{
  display: inline-flex;  
  margin-left: 13.6%;
+ margin-top: 20px;
 }
 
 .uh{
