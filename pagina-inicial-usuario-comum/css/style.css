@@ -108,6 +108,7 @@ body {
 
 .conteudo button {
     width: 100px;
+    height: 800px;
 }
 
 .close {
@@ -641,6 +642,7 @@ body {
 
 .conteudo button {
     width: 100px;
+    height: 25px;
 }
 
 .close {
@@ -967,6 +969,14 @@ p {
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
   @media screen and (max-width: 480px) {
 	header {
 	  position: relative;
@@ -1000,6 +1010,7 @@ p {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    height: 50px;
   }
   
   /* Estilo para o ícone */
