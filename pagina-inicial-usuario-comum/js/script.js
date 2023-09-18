@@ -177,3 +177,24 @@ document.querySelectorAll('.button').forEach(button => {
     })
 
 });
+
+function exibirAlerta(){
+    swal({
+        title: "Você tem certeza?",
+        text: "Se você encerrar seu projeto, não será possível receber novos contatos",
+        icon: "warning",
+        buttons: true,
+        buttons: {
+            cancel: "Cancelar",   // Traduzindo o botão de cancelamento
+            confirm: "Confirmar", // Traduzindo o botão de confirmação
+        },
+        dangerMode: true,       
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Projeto encerrado", {
+            icon: "success",
+          });
+        } 
+    });
+}
