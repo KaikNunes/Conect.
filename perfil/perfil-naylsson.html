@@ -30,7 +30,7 @@
             
             <div id="perfil">
                 <div id="foto">
-                    <img src="./img/nalysson.gif" alt="">
+                    <img src="./img/naylsson.jpg" alt="">
                     <h5>Nalysson Luiz</h5>
                     <h6>Treinamento/Professor | Sistemas
                         | Montagem e Manutenção
@@ -38,15 +38,15 @@
                         | Redes e Infraestrutura</h6>
                 </div>
             
-
+                <div id="overlay"></div>
                 
 
                 <div id="texto">
                     <div id="ull">
                         <ul id="ul">
                             <li>Sobre</li>
-                            <li>Projetos</li>
-                            <li>Avaliações</li>
+                            <a href="#projetos"><li>Projetos</li></a>
+                            <a href="#avaliacoes"><li>Avaliações</li></a>
                             <li onclick="openModal()">Contato</li>
                         </ul>
                     </div>
@@ -55,11 +55,16 @@
                             <span class="close" onclick="closeModal()">&times;</span>
                             <div class="conteudo">
                                 <h2>MEIOS DE CONTATO</h2>
-                                <p class="descricao-modal">
-                                    
-                               <!-- MEIOS DE CONTATO AQUI!!!!!!!!      -->
+                                <p class="descricao-modal"></p>
 
-                                </p>
+                                <div class="social-buttons">
+                                    <a href="https://api.whatsapp.com/send?phone=NUMERODETELEFONE" target="_blank" class="social-button whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                                    <a href="https://github.com" target="_blank" class="social-button github"><i class="fab fa-github"></i> GitHub</a>
+                                    <a href="https://www.facebook.com" target="_blank" class="social-button facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                                    <a href="https://twitter.com" target="_blank" class="social-button x"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>   X</a>
+                                    <a href="https://www.instagram.com" target="_blank" class="social-button instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                                </div>
+
                                 <img id="project-image" src="./img/computador-desligado.jpg" alt="">
                                 <div id="overlay2"></div>
                                 <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
@@ -83,8 +88,8 @@
                     </div>
                 </div>
 
-                <div class="projetos">
-                    <h5 id="title">Recentemente, fui contratado como freelancer para desenvolver e ministrar um programa de treinamento em programação para uma equipe de funcionários de uma empresa de tecnologia </h5>
+                <div class="projetos" id="projetos">
+                    <h5 id="title">Fui contratado como freelancer para desenvolver e ministrar um programa de treinamento em programação para uma equipe de funcionários de uma empresa de tecnologia </h5>
                     <p>
                         O objetivo era capacitar os colaboradores com habilidades em programação para que pudessem desenvolver soluções internas e aprimorar seus conhecimentos técnicos.
 

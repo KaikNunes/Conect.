@@ -191,6 +191,7 @@ header{
   background-color: #F1F1F1;
   margin-bottom: 20px;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .projetos h5{
@@ -242,4 +243,115 @@ header{
   width: 100%;
   align-items: center;
   justify-content: space-around;
+}
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 800px;
+  height: 500px;
+}
+
+.conteudo {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.conteudo p {
+  text-align: justify;
+}
+
+.conteudo button {
+  width: 100px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  z-index: 998;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#overlay2 {
+  display: none;
+  position: fixed;
+  z-index: 998;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.descricao-modal {
+  color: #999;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-button {
+  background-color: #0077B5;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.social-button i {
+  margin-right: 5px;
+}
+
+.social-button.facebook {
+  background-color: #1877F2;
+}
+
+.social-button.x {
+  background-color: #333;
+}
+
+.social-button.instagram {
+  background-color: #E4405F;
+}
+
+.social-button.whatsapp {
+  background-color: #25D366;
+}
+
+.social-button.github {
+  background-color: #333;
+}
+
+a{
+  text-decoration: none;
 }
