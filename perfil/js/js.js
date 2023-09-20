@@ -8,6 +8,15 @@ function closeProject() {
     document.getElementById("overlay").style.display = "none";
 }
 
+function openModal() {
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
 
 var projectImage = document.getElementById("project-image");
 var overlay = document.getElementById("overlay2");
