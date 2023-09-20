@@ -47,10 +47,27 @@
                             <li>Sobre</li>
                             <li>Projetos</li>
                             <li>Avaliações</li>
-                            <li>Contato</li>
+                            <li onclick="openModal()">Contato</li>
                         </ul>
                     </div>
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <div class="conteudo">
+                                <h2>MEIOS DE CONTATO</h2>
+                                <p class="descricao-modal">
+                                    
+                               <!-- MEIOS DE CONTATO AQUI!!!!!!!!      -->
 
+                                </p>
+                                <img id="project-image" src="./img/computador-desligado.jpg" alt="">
+                                <div id="overlay2"></div>
+                                <!-- <button><i class="fa-solid fa-paperclip"></i>Anexos</button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    
                     <div id="txt">
                         <p>
                             Olá! Meu nome é Nalysson Luiz e sou um freelancer especializado em treinar pessoas nas áreas de sistemas, montagem e manutenção de computadores, programação, redes e infraestrutura.
@@ -155,5 +172,6 @@
         Please ensure Javascript is enabled for purposes of
         <a href="https://userway.org">website accessibility</a>
     </noscript>
+    <script src="./js/js.js"></script>
 </body>
 </html>
