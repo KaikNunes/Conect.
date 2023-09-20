@@ -532,3 +532,30 @@ p {
 	  position: absolute;
 	}
 }
+
+/* Estilos para o botão de contato */
+.botao-contato {
+    background-color: #8c52ff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 5px 50px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border: none; /* Remova a borda do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    
+    /* Centralizar o texto verticalmente e horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+
+}
+
+/* Estilo para o hover (quando o mouse passa por cima) */
+.botao-contato:hover {
+    background-color: #673ac2; /* Cor de fundo mais escura */
+}
+
+a{
+    outline: none;
+}
