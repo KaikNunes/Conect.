@@ -416,7 +416,7 @@ p {
     margin: 10px 10px;
 }
 
-.menu-inferior>ul>div:hover {
+.menu-inferior>ul>div:hover, .hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     cursor: pointer;
@@ -559,3 +559,11 @@ p {
 a{
     outline: none;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
