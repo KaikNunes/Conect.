@@ -2,8 +2,6 @@
 
 <img src="https://github.com/KaikNunes/Projeto-Integrador/blob/main/home/img/c-roxo.png" width="50px">
 
-> Status: Developing... 🚧
-
 Bem-vindo ao repositório oficial da plataforma de freelancers "Conect"! Este projeto tem como objetivo criar uma plataforma dedicada exclusivamente à comunidade de tecnologia, conectando freelancers talentosos a projetos empolgantes. Seja você um desenvolvedor, designer, especialista em marketing digital ou qualquer outro profissional de tecnologia, a Conect está aqui para ajudar a encontrar oportunidades de trabalho que correspondam às suas habilidades e interesses.
 
 A plataforma Conect surge como resposta a demanda crescente por soluções tecnológicas eficientes e personalizadas. Diferentemente de outras plataformas de freelancers genéricas, a Conect concentra-se exclusivamente em projetos da área de tecnologia. Seu objetivo principal é conectar indivíduos com problemas tecnológicos aos melhores técnicos experientes, proporcionando uma experiência ágil, confiável e de qualidade.
