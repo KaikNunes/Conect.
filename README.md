@@ -20,8 +20,6 @@ A Conect visa simplificar a busca por trabalhos freelancers e conectar profissio
 
 - **Processo de Seleção Transparente**: Receba notificações instantâneas sobre projetos que correspondam ao seu perfil. Participe de processos de seleção justos e transparentes, garantindo que sua candidatura seja considerada de forma imparcial.
 
-- **Pagamento Seguro**: Oferecemos um sistema de pagamento seguro, garantindo que os freelancers recebam o pagamento pelo seu trabalho de forma confiável e eficiente.
-
 - **Avaliações e Feedback**: Construa uma reputação sólida através de avaliações e feedback dos clientes. Isso ajuda a estabelecer a confiança e atrair mais oportunidades de trabalho.
 
 - **Comunidade Ativa**: Junte-se a uma comunidade de freelancers de tecnologia apaixonados. Compartilhe conhecimento, experiências e colabore para aprimorar suas habilidades.
